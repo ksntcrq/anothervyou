@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 30px;
+}
+
+.brand-wrapper {
+    flex-grow: 1;
+}
+
+.brand {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+}
