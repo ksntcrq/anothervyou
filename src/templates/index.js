@@ -29,6 +29,7 @@ export default ({ data: { postsMarkdownRemark }, pageContext }) => {
 export const query = graphql`
     query($locale: String!) {
         postsMarkdownRemark: allMarkdownRemark(
+            sort: { fields: [frontmatter___date], order: DESC }
             filter: {
                 fields: { langKey: { eq: $locale } }
                 frontmatter: { template: { eq: "post" } }
