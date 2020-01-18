@@ -1,7 +1,9 @@
+@import "../../styles/modules/all";
+
 .header {
     display: flex;
     align-items: flex-end;
-    margin-bottom: 30px;
+    margin-bottom: 2 * $spacing;
 }
 
 .brand-wrapper {
@@ -26,7 +28,7 @@
     color: #404040;
 
     &:hover {
-        color: #D77D0B;
+        color: #d77d0b;
         cursor: pointer;
     }
 }
