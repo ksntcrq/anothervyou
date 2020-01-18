@@ -5,9 +5,15 @@ import { FormattedDate } from "react-intl";
 import Tags from "../components/Tags/Tags";
 import styles from "./templates.module.scss";
 
-export default ({ data: { post }, pageContext }) => {
+export default ({
+    data: { post, translatedPost },
+    pageContext: { locale },
+}) => {
     return (
-        <Layout {...pageContext}>
+        <Layout
+            locale={locale}
+            translatedPageSlug={translatedPost.frontmatter.slug}
+        >
             <article>
                 <header className={styles.header}>
                     <h1 className={styles.title}>{post.frontmatter.title}</h1>
@@ -28,13 +34,20 @@ export default ({ data: { post }, pageContext }) => {
 };
 
 export const query = graphql`
-    query($slug: String!) {
+    query($slug: String!, $namespace: String!, $locale: String!) {
         post: markdownRemark(frontmatter: { slug: { eq: $slug } }) {
             html
             frontmatter {
                 title
                 date
                 tags
+            }
+        }
+        translatedPost: markdownRemark(
+            fields: { namespace: { eq: $namespace }, langKey: { ne: $locale } }
+        ) {
+            frontmatter {
+                slug
             }
         }
     }

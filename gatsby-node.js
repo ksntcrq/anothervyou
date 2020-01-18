@@ -4,39 +4,46 @@ const kebabCase = require(`kebab-case`);
 exports.onCreateNode = ({ node, getNode, actions }) => {
     const { createNodeField } = actions;
     if (node.internal.type === `MarkdownRemark`) {
-        const langKey = getNode(node.parent).name;
+        const { name: langKey, relativeDirectory: namespace } = getNode(
+            node.parent
+        );
         createNodeField({
             node,
             name: `langKey`,
             value: langKey,
         });
+        createNodeField({
+            node,
+            name: `namespace`,
+            value: namespace,
+        });
     }
 };
 
 exports.onCreatePage = ({ page, actions }) => {
-    const { createPage, deletePage } = actions
-    deletePage(page)
-    // You can access the variable "locale" in your page queries now
+    const { createPage, deletePage } = actions;
+    deletePage(page);
     createPage({
         ...page,
         context: {
             ...page.context,
             locale: page.context.intl.language,
         },
-    })
-}
+    });
+};
 
 exports.createPages = async ({ actions, graphql }) => {
     const { createPage } = actions;
     const result = await graphql(`
         {
-            postsRemark: allMarkdownRemark(
+            pagesRemark: allMarkdownRemark(
                 sort: { order: DESC, fields: [frontmatter___date] }
             ) {
                 edges {
                     node {
                         fields {
                             langKey
+                            namespace
                         }
                         frontmatter {
                             tags
@@ -53,7 +60,7 @@ exports.createPages = async ({ actions, graphql }) => {
             }
         }
     `);
-    result.data.postsRemark.edges.forEach(({ node }) => {
+    result.data.pagesRemark.edges.forEach(({ node }) => {
         createPage({
             path: `${node.frontmatter.slug}`,
             component: path.resolve(
@@ -61,8 +68,8 @@ exports.createPages = async ({ actions, graphql }) => {
             ),
             context: {
                 slug: node.frontmatter.slug,
-                pageKey: node.frontmatter.pageKey,
                 langKey: node.fields.langKey,
+                namespace: node.fields.namespace,
             },
         });
     });

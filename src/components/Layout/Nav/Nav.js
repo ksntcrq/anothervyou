@@ -3,10 +3,9 @@ import PropTypes from "prop-types";
 import { graphql, useStaticQuery } from "gatsby";
 import styles from "./Nav.module.scss";
 import { Link, changeLocale } from "gatsby-plugin-intl";
-import { FormattedMessage } from "react-intl";
 import classNames from "classnames";
 
-function Nav({ className, locale }) {
+function Nav({ className, locale, translatedPageSlug }) {
     const otherLocale = locale === "fr" ? "en" : "fr";
 
     const data = useStaticQuery(
@@ -32,9 +31,13 @@ function Nav({ className, locale }) {
                 <li>
                     <button
                         className={styles.btnLink}
-                        onClick={() => changeLocale(otherLocale)}
+                        onClick={() =>
+                            changeLocale(otherLocale, translatedPageSlug)
+                        }
                     >
-                        <FormattedMessage id={otherLocale} />
+                        {otherLocale === "fr"
+                            ? "Lire en Français"
+                            : "Read in English"}
                     </button>
                 </li>
             </ul>
@@ -45,6 +48,7 @@ function Nav({ className, locale }) {
 Nav.propTypes = {
     locale: PropTypes.string.isRequired,
     className: PropTypes.string,
+    translatedPageSlug: PropTypes.string,
 };
 
 export default Nav;

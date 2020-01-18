@@ -1,7 +1,6 @@
 import React from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout/Layout";
-import { FormattedMessage } from "react-intl";
 import ArticlePreview from "../components/ArticlePreview/ArticlePreview";
 import styles from "./templates.module.scss";
 
