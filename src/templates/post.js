@@ -1,26 +1,29 @@
 import React from "react";
-import Main from "../components/Layout/Main/Main";
-import { graphql, Link } from "gatsby";
-import kebabCase from "kebab-case";
-import { FormattedMessage } from "react-intl"
+import Layout from "../components/Layout/Layout";
+import { graphql } from "gatsby";
+import { FormattedDate } from "react-intl";
+import Tags from "../components/Tags/Tags";
+import styles from "./templates.module.scss";
 
 export default ({ data: { post }, pageContext }) => {
     return (
-        <Main {...pageContext}>
-            <h1>{post.frontmatter.title}</h1>
-            <h2>{post.frontmatter.date}</h2>
-            <div>
-              <FormattedMessage id="tags" />
-              <ul>
-                    {post.frontmatter.tags.map(tag => (
-                        <li key={tag}>
-                            <Link to={`/tags/${kebabCase(tag)}`}>{tag}</Link>
-                        </li>
-                    ))}
-                </ul>
-            </div>
-            <div dangerouslySetInnerHTML={{ __html: post.html }} />
-        </Main>
+        <Layout {...pageContext}>
+            <article>
+                <header className={styles.header}>
+                    <h1 className={styles.title}>{post.frontmatter.title}</h1>
+                    <time>
+                        <FormattedDate
+                            value={post.frontmatter.date}
+                            year="numeric"
+                            month="long"
+                            day="numeric"
+                        />
+                    </time>
+                </header>
+                <div dangerouslySetInnerHTML={{ __html: post.html }} />
+                <Tags tags={post.frontmatter.tags} />
+            </article>
+        </Layout>
     );
 };
 
@@ -30,6 +33,7 @@ export const query = graphql`
             html
             frontmatter {
                 title
+                date
                 tags
             }
         }

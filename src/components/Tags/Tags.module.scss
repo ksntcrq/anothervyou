@@ -1,0 +1,20 @@
+.title {
+    font-weight: bold;
+}
+
+.list {
+    display: inline-block;
+    list-style: none;
+    margin-left: 5px;
+}
+
+.item {
+    display: inline-block;
+
+    &:not(:last-child) {
+        margin-right: 5px;
+        &:after {
+            content: ", ";
+        }
+    }
+}

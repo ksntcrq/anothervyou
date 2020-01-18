@@ -1,5 +1,5 @@
 import React from "react";
-import Main from "../components/Layout/Main/Main";
+import Layout from "../components/Layout/Layout";
 import { graphql } from "gatsby";
 import { Link } from 'gatsby-plugin-intl';
 
@@ -8,7 +8,7 @@ export default ({ pageContext, data }) => {
     const { edges } = data.allMarkdownRemark;
 
     return (
-        <Main {...pageContext}>
+        <Layout {...pageContext}>
             <h1>{tag}</h1>
             <ul>
                 {edges.map(({ node }) => (
@@ -19,7 +19,7 @@ export default ({ pageContext, data }) => {
                     </li>
                 ))}
             </ul>
-        </Main>
+        </Layout>
     );
 };
 

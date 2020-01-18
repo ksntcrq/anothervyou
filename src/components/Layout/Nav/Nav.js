@@ -1,11 +1,11 @@
 import React from "react";
 import { graphql, useStaticQuery } from "gatsby";
-import styles from "./Header.module.scss";
+import styles from "./Nav.module.scss";
 import { Link, changeLocale } from "gatsby-plugin-intl";
 import { FormattedMessage } from "react-intl";
-import classNames from 'classnames';
+import classNames from "classnames";
 
-function Header({ className, locale }) {
+function Nav({ className, locale }) {
     const otherLocale = locale === "fr" ? "en" : "fr";
 
     const data = useStaticQuery(
@@ -21,7 +21,7 @@ function Header({ className, locale }) {
     );
 
     return (
-        <header className={classNames(className, styles.header)}>
+        <nav className={classNames(className, styles.nav)}>
             <div className={styles.brandWrapper}>
                 <Link className={styles.brand} to="/">
                     {data.site.siteMetadata.title}
@@ -37,8 +37,8 @@ function Header({ className, locale }) {
                     </button>
                 </li>
             </ul>
-        </header>
+        </nav>
     );
 }
 
-export default Header;
+export default Nav;

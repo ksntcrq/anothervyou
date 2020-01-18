@@ -1,28 +1,30 @@
 import React from "react";
 import { graphql } from "gatsby";
-import Main from "../components/Layout/Main/Main";
+import Layout from "../components/Layout/Layout";
 import { Link } from "gatsby-plugin-intl";
 import { FormattedMessage } from "react-intl";
 
 export default ({ data: { postsMarkdownRemark }, pageContext }) => {
     return (
-        <Main {...pageContext}>
+        <Layout {...pageContext}>
             <h1>
                 <FormattedMessage id="posts" />
             </h1>
             <ul>
                 {postsMarkdownRemark.edges.map(({ node }) => (
                     <li key={node.id}>
-                        <h2>
-                            <Link to={`${node.frontmatter.slug}`}>
-                                {node.frontmatter.title}
-                            </Link>
-                        </h2>
-                        <p>{node.excerpt}</p>
+                        <article>
+                            <h2>
+                                <Link to={`${node.frontmatter.slug}`}>
+                                    {node.frontmatter.title}
+                                </Link>
+                            </h2>
+                            <p>{node.excerpt}</p>
+                        </article>
                     </li>
                 ))}
             </ul>
-        </Main>
+        </Layout>
     );
 };
 
