@@ -31,7 +31,21 @@ module.exports = {
                 redirect: true,
             },
         },
-        `gatsby-transformer-remark`,
+        {
+            resolve: `gatsby-transformer-remark`,
+            options: {
+                plugins: [
+                    {
+                        resolve: `gatsby-remark-images`,
+                        options: {
+                            maxWidth: 800,
+                            withWebp: true,
+                        },
+                    },
+                ],
+            },
+        },
+        `gatsby-plugin-sharp`,
         `gatsby-plugin-sass`,
     ],
 };

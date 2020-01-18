@@ -1,6 +1,16 @@
-.main {
-    max-width: 800px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 50px auto;
+@import '../../../styles/modules/all';
+
+.header,
+.footer {
+    max-width: 1000px + 2 * $spacing;
+    padding-left: $spacing;
+    padding-right: $spacing;
+    margin: (2 * $spacing) auto;
+}
+
+.content {
+    max-width: 680px + 2 * $spacing;
+    padding-left: $spacing;
+    padding-right: $spacing;
+    margin: (4 * $spacing) auto (8 * $spacing);
 }

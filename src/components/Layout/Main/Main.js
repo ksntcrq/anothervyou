@@ -6,9 +6,9 @@ import Footer from "../../Footer/Footer";
 function Main({ children, ...pageContext }) {
     return (
         <div className={styles.main}>
-            <Header {...pageContext} />
-            {children}
-            <Footer />
+            <Header className={styles.header} {...pageContext} />
+            <div className={styles.content}>{children}</div>
+            <Footer className={styles.footer} />
         </div>
     );
 }

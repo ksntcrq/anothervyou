@@ -3,8 +3,9 @@ import { graphql, useStaticQuery } from "gatsby";
 import styles from "./Header.module.scss";
 import { Link, changeLocale } from "gatsby-plugin-intl";
 import { FormattedMessage } from "react-intl";
+import classNames from 'classnames';
 
-function Header({ locale }) {
+function Header({ className, locale }) {
     const otherLocale = locale === "fr" ? "en" : "fr";
 
     const data = useStaticQuery(
@@ -20,7 +21,7 @@ function Header({ locale }) {
     );
 
     return (
-        <header className={styles.header}>
+        <header className={classNames(className, styles.header)}>
             <div className={styles.brandWrapper}>
                 <Link className={styles.brand} to="/">
                     {data.site.siteMetadata.title}
