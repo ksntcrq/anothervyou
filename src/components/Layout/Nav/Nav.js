@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { graphql, useStaticQuery } from "gatsby";
 import styles from "./Nav.module.scss";
 import { Link, changeLocale } from "gatsby-plugin-intl";
@@ -40,5 +41,10 @@ function Nav({ className, locale }) {
         </nav>
     );
 }
+
+Nav.propTypes = {
+    locale: PropTypes.string.isRequired,
+    className: PropTypes.string,
+};
 
 export default Nav;
