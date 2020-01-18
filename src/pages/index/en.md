@@ -1,5 +1,4 @@
 ---
-title: "Index"
 template: "index"
+slug: "/"
 ---
-Welcome!

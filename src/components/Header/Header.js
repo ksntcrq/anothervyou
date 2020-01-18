@@ -1,8 +1,12 @@
 import React from "react";
-import { Link, graphql, useStaticQuery } from "gatsby";
+import { graphql, useStaticQuery } from "gatsby";
 import styles from "./Header.module.scss";
+import { Link, changeLocale } from "gatsby-plugin-intl";
+import { FormattedMessage } from "react-intl";
 
-function Header() {
+function Header({ locale }) {
+    const otherLocale = locale === "fr" ? "en" : "fr";
+
     const data = useStaticQuery(
         graphql`
             query {
@@ -24,7 +28,12 @@ function Header() {
             </div>
             <ul className={styles.menu}>
                 <li>
-                    <Link to="/about">About</Link>
+                    <button
+                        className={styles.btnLink}
+                        onClick={() => changeLocale(otherLocale)}
+                    >
+                        <FormattedMessage id={otherLocale} />
+                    </button>
                 </li>
             </ul>
         </header>

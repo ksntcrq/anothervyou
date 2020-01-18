@@ -1,10 +1,10 @@
-import React from "react";
+import React  from "react";
 import Main from "../components/Layout/Main/Main";
 import { graphql } from "gatsby";
 
-export default ({ data: { page } }) => {
+export default ({ data: { page }, pageContext }) => {
     return (
-        <Main>
+      <Main {...pageContext}>
             <h1>{page.frontmatter.title}</h1>
             <div dangerouslySetInnerHTML={{ __html: page.html }} />
         </Main>
@@ -13,7 +13,7 @@ export default ({ data: { page } }) => {
 
 export const query = graphql`
     query($slug: String!) {
-        page: markdownRemark(fields: { slug: { eq: $slug } }) {
+        page: markdownRemark(frontmatter: { slug: { eq: $slug } }) {
             html
             frontmatter {
                 title

@@ -2,10 +2,10 @@ import React from "react";
 import styles from "./Main.module.scss";
 import Header from "../../Header/Header";
 
-function Main({ children }) {
+function Main({ children, ...pageContext }) {
     return (
         <div className={styles.main}>
-            <Header />
+            <Header {...pageContext} />
             {children}
         </div>
     );

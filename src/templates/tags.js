@@ -7,14 +7,14 @@ export default ({ pageContext, data }) => {
     const { edges, totalCount: postCount } = data.allMarkdownRemark;
 
     return (
-        <Main>
+        <Main {...pageContext}>
             <h1>
                 {postCount} post(s) tagged {tag}
             </h1>
             <ul>
                 {edges.map(({ node }) => (
                     <li>
-                        <Link to={`/${node.fields.slug}`}>
+                        <Link to={`/${node.frontmatter.slug}`}>
                             {node.frontmatter.title}
                         </Link>
                     </li>
@@ -24,7 +24,7 @@ export default ({ pageContext, data }) => {
     );
 };
 
-export const pageQuery = graphql`
+export const query = graphql`
     query($tag: String) {
         allMarkdownRemark(
             sort: { fields: [frontmatter___date], order: DESC }
@@ -33,11 +33,9 @@ export const pageQuery = graphql`
             totalCount
             edges {
                 node {
-                    fields {
-                        slug
-                    }
                     frontmatter {
                         title
+                        slug
                     }
                 }
             }

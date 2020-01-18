@@ -1,20 +1,32 @@
 const path = require(`path`);
 const kebabCase = require(`kebab-case`);
-const { createFilePath } = require(`gatsby-source-filesystem`);
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
     const { createNodeField } = actions;
     if (node.internal.type === `MarkdownRemark`) {
-        const slug = createFilePath({ node, getNode, basePath: `pages` });
+        const langKey = getNode(node.parent).name;
         createNodeField({
             node,
-            name: `slug`,
-            value: slug,
+            name: `langKey`,
+            value: langKey,
         });
     }
 };
 
-exports.createPages = async ({ graphql, actions }) => {
+exports.onCreatePage = ({ page, actions }) => {
+    const { createPage, deletePage } = actions
+    deletePage(page)
+    // You can access the variable "locale" in your page queries now
+    createPage({
+        ...page,
+        context: {
+            ...page.context,
+            locale: page.context.intl.language,
+        },
+    })
+}
+
+exports.createPages = async ({ actions, graphql }) => {
     const { createPage } = actions;
     const result = await graphql(`
         {
@@ -24,16 +36,17 @@ exports.createPages = async ({ graphql, actions }) => {
                 edges {
                     node {
                         fields {
-                            slug
+                            langKey
                         }
                         frontmatter {
                             tags
                             template
+                            slug
                         }
                     }
                 }
             }
-            tagsGroup: allMarkdownRemark(limit: 2000) {
+            tagsGroup: allMarkdownRemark {
                 group(field: frontmatter___tags) {
                     fieldValue
                 }
@@ -42,22 +55,24 @@ exports.createPages = async ({ graphql, actions }) => {
     `);
     result.data.postsRemark.edges.forEach(({ node }) => {
         createPage({
-            path: node.fields.slug,
+            path: `${node.frontmatter.slug}`,
             component: path.resolve(
                 `./src/templates/${node.frontmatter.template}.js`
             ),
             context: {
-                slug: node.fields.slug,
+                slug: node.frontmatter.slug,
+                pageKey: node.frontmatter.pageKey,
+                langKey: node.fields.langKey,
             },
         });
     });
     result.data.tagsGroup.group.forEach(tag => {
         createPage({
             path: `/tags/${kebabCase(tag.fieldValue)}/`,
-            component: path.resolve('./src/templates/tags.js'),
+            component: path.resolve("./src/templates/tags.js"),
             context: {
                 tag: tag.fieldValue,
             },
-        })
-    })
+        });
+    });
 };

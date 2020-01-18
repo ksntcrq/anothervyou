@@ -22,6 +22,15 @@ module.exports = {
                 pathToConfigModule: `src/utils/typography`,
             },
         },
+        {
+            resolve: `gatsby-plugin-intl`,
+            options: {
+                path: `${__dirname}/src/intl`,
+                languages: [`en`, `fr`],
+                defaultLanguage: `en`,
+                redirect: true,
+            },
+        },
         `gatsby-transformer-remark`,
         `gatsby-plugin-sass`,
     ],
