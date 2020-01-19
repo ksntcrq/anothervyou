@@ -5,7 +5,7 @@ import ArticlePreview from "../components/ArticlePreview/ArticlePreview";
 import styles from "./templates.module.scss";
 import { useIntl } from "react-intl";
 import SEO from "../components/SEO/SEO";
-import { formatTranslations } from "../pages/utils/format";
+import { formatTranslations } from "../utils/format";
 
 export default ({
     data: {
@@ -86,8 +86,6 @@ export const query = graphql`
                 node {
                     fields {
                         langKey
-                    }
-                    frontmatter {
                         slug
                     }
                 }

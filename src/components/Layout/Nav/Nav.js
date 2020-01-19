@@ -1,12 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { graphql, useStaticQuery } from "gatsby";
+import { graphql, useStaticQuery, Link } from "gatsby";
 import styles from "./Nav.module.scss";
-import { Link, changeLocale } from "gatsby-plugin-intl";
 import classNames from "classnames";
 import { FormattedMessage } from "react-intl";
 
-function Nav({ className, pageTranslations = [] }) {
+function Nav({ className, locale, pageTranslations = [] }) {
     const data = useStaticQuery(
         graphql`
             query {
@@ -22,7 +21,7 @@ function Nav({ className, pageTranslations = [] }) {
     return (
         <nav className={classNames(className, styles.nav)}>
             <div className={styles.brandWrapper}>
-                <Link className={styles.brand} to="/">
+                <Link className={styles.brand} to={`/${locale}`}>
                     {data.site.siteMetadata.title}
                 </Link>
             </div>
@@ -30,12 +29,9 @@ function Nav({ className, pageTranslations = [] }) {
                 <ul className={styles.menu}>
                     {pageTranslations.map(({ langKey, slug }) => (
                         <li key={langKey}>
-                            <button
-                                className={styles.btnLink}
-                                onClick={() => changeLocale(langKey, slug)}
-                            >
+                            <Link className={styles.btnLink} to={slug}>
                                 <FormattedMessage id={`read_in_${langKey}`} />
-                            </button>
+                            </Link>
                         </li>
                     ))}
                 </ul>
@@ -46,6 +42,7 @@ function Nav({ className, pageTranslations = [] }) {
 
 Nav.propTypes = {
     className: PropTypes.string,
+    locale: PropTypes.string.isRequired,
     pageTranslations: PropTypes.arrayOf(
         PropTypes.shape({
             langKey: PropTypes.string.isRequired,

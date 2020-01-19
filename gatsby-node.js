@@ -7,7 +7,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
         const { name: langKey, relativeDirectory: namespace } = getNode(
             node.parent
         );
-        const slug = dashify(node.frontmatter.title) || '';
+        const slug = dashify(node.frontmatter.title) || "";
         createNodeField({
             node,
             name: `langKey`,
@@ -21,21 +21,9 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
         createNodeField({
             node,
             name: `slug`,
-            value: `/${slug}`,
+            value: `/${langKey}/${slug}`,
         });
     }
-};
-
-exports.onCreatePage = ({ page, actions }) => {
-    const { createPage, deletePage } = actions;
-    deletePage(page);
-    createPage({
-        ...page,
-        context: {
-            ...page.context,
-            locale: page.context.intl.language,
-        },
-    });
 };
 
 exports.createPages = async ({ actions, graphql }) => {
@@ -62,6 +50,13 @@ exports.createPages = async ({ actions, graphql }) => {
             tagsGroup: allMarkdownRemark {
                 group(field: frontmatter___tags) {
                     fieldValue
+                    edges {
+                        node {
+                            fields {
+                                langKey
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -74,18 +69,22 @@ exports.createPages = async ({ actions, graphql }) => {
             ),
             context: {
                 slug: node.fields.slug,
-                langKey: node.fields.langKey,
+                locale: node.fields.langKey,
                 namespace: node.fields.namespace,
             },
         });
     });
     result.data.tagsGroup.group.forEach(tag => {
-        createPage({
-            path: `/tags/${dashify(tag.fieldValue)}/`,
-            component: path.resolve("./src/templates/tags.js"),
-            context: {
-                tag: tag.fieldValue,
-            },
+        const dashifiedTag = dashify(tag.fieldValue);
+        tag.edges.forEach(({ node }) => {
+            createPage({
+                path: `/${node.fields.langKey}/tags/${dashifiedTag}`,
+                component: path.resolve("./src/templates/tags.js"),
+                context: {
+                    tag: tag.fieldValue,
+                    locale: node.fields.langKey,
+                },
+            });
         });
     });
 };

@@ -2,10 +2,10 @@ import React from "react";
 import PropTypes from "prop-types";
 import styles from "./Tags.module.scss";
 import { FormattedMessage } from "react-intl";
-import { Link } from "gatsby-plugin-intl";
+import { Link } from "gatsby";
 import dashify from "dashify";
 
-function Tags({ tags = [] }) {
+function Tags({ locale, tags = [] }) {
     return (
         <div className={styles.tags}>
             <span className={styles.title}>
@@ -14,7 +14,7 @@ function Tags({ tags = [] }) {
             <ul className={styles.list}>
                 {tags.map(tag => (
                     <li key={tag} className={styles.item}>
-                        <Link to={`/tags/${dashify(tag)}`}>{tag}</Link>
+                        <Link to={`/${locale}/tags/${dashify(tag)}`}>{tag}</Link>
                     </li>
                 ))}
             </ul>

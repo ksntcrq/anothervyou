@@ -1,7 +1,6 @@
 import React from "react";
 import Layout from "../components/Layout/Layout";
-import { graphql } from "gatsby";
-import { Link } from "gatsby-plugin-intl";
+import { graphql, Link } from "gatsby";
 import { useIntl } from "react-intl";
 import SEO from "../components/SEO/SEO";
 
@@ -31,7 +30,7 @@ export default ({
             <ul>
                 {postsMarkdownRemark.edges.map(({ node }) => (
                     <li key={node.id}>
-                        <Link to={`${node.fields.slug}`}>
+                        <Link to={node.fields.slug}>
                             {node.frontmatter.title}
                         </Link>
                     </li>

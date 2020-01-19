@@ -18,15 +18,6 @@ module.exports = {
             },
         },
         {
-            resolve: `gatsby-plugin-intl`,
-            options: {
-                path: `${__dirname}/src/intl`,
-                languages: [`en`, `fr`],
-                defaultLanguage: `en`,
-                redirect: true,
-            },
-        },
-        {
             resolve: `gatsby-transformer-remark`,
             options: {
                 plugins: [

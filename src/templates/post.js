@@ -5,7 +5,7 @@ import { FormattedDate } from "react-intl";
 import Tags from "../components/Tags/Tags";
 import styles from "./templates.module.scss";
 import SEO from "../components/SEO/SEO";
-import { formatTranslations } from "../pages/utils/format"
+import { formatTranslations } from "../utils/format"
 
 export default ({
     data: {
@@ -20,7 +20,7 @@ export default ({
     );
 
     return (
-        <Layout pageTranslations={postTranslations}>
+        <Layout locale={locale} pageTranslations={postTranslations}>
             <SEO
                 title={post.frontmatter.title}
                 description={post.excerpt}
