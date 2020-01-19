@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import styles from "./Layout.module.scss";
 import Nav from "./Nav/Nav";
 import Footer from "./Footer/Footer";
+require("typeface-libre-baskerville");
 
 function Layout({ children, locale, translatedPageSlug }) {
     return (

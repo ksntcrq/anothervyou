@@ -1,14 +1,26 @@
+@import './modules/all';
+
+* {
+    font-family: "Libre Baskerville", serif;
+    color: $text-color;
+    line-height: 1.75;
+}
+
+html {
+    border-top: 4px solid $primary-color;
+}
+
 a {
-    color: #404040;
+    color: $text-color;
     text-decoration: none;
 
     &:hover {
-        color: #D77D0B;
+        color: $primary-color;
     }
 }
 
 ::selection {
-    background-color: #EFC230;
+    background-color: $light-primary-color;
 }
 
 .text-center {
