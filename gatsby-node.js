@@ -1,5 +1,5 @@
 const path = require(`path`);
-const kebabCase = require(`kebab-case`);
+const dashify = require(`dashify`);
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
     const { createNodeField } = actions;
@@ -7,6 +7,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
         const { name: langKey, relativeDirectory: namespace } = getNode(
             node.parent
         );
+        const slug = dashify(node.frontmatter.title) || '';
         createNodeField({
             node,
             name: `langKey`,
@@ -16,6 +17,11 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
             node,
             name: `namespace`,
             value: namespace,
+        });
+        createNodeField({
+            node,
+            name: `slug`,
+            value: `/${slug}`,
         });
     }
 };
@@ -44,11 +50,11 @@ exports.createPages = async ({ actions, graphql }) => {
                         fields {
                             langKey
                             namespace
+                            slug
                         }
                         frontmatter {
                             tags
                             template
-                            slug
                         }
                     }
                 }
@@ -62,12 +68,12 @@ exports.createPages = async ({ actions, graphql }) => {
     `);
     result.data.pagesRemark.edges.forEach(({ node }) => {
         createPage({
-            path: `${node.frontmatter.slug}`,
+            path: `${node.fields.slug}`,
             component: path.resolve(
                 `./src/templates/${node.frontmatter.template}.js`
             ),
             context: {
-                slug: node.frontmatter.slug,
+                slug: node.fields.slug,
                 langKey: node.fields.langKey,
                 namespace: node.fields.namespace,
             },
@@ -75,7 +81,7 @@ exports.createPages = async ({ actions, graphql }) => {
     });
     result.data.tagsGroup.group.forEach(tag => {
         createPage({
-            path: `/tags/${kebabCase(tag.fieldValue)}/`,
+            path: `/tags/${dashify(tag.fieldValue)}/`,
             component: path.resolve("./src/templates/tags.js"),
             context: {
                 tag: tag.fieldValue,

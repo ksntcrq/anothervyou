@@ -31,7 +31,7 @@ export default ({
             <ul>
                 {postsMarkdownRemark.edges.map(({ node }) => (
                     <li key={node.id}>
-                        <Link to={`${node.frontmatter.slug}`}>
+                        <Link to={`${node.fields.slug}`}>
                             {node.frontmatter.title}
                         </Link>
                     </li>
@@ -59,9 +59,11 @@ export const query = graphql`
             edges {
                 node {
                     id
+                    fields {
+                        slug
+                    }
                     frontmatter {
                         title
-                        slug
                     }
                 }
             }

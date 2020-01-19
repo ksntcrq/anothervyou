@@ -8,10 +8,7 @@ require("typeface-libre-baskerville");
 function Layout({ children, pageTranslations }) {
     return (
         <>
-            <Nav
-                className={styles.nav}
-                pageTranslations={pageTranslations}
-            />
+            <Nav className={styles.nav} pageTranslations={pageTranslations} />
             <main className={styles.content}>{children}</main>
             <Footer className={styles.footer} />
         </>
@@ -20,10 +17,12 @@ function Layout({ children, pageTranslations }) {
 
 Layout.propTypes = {
     children: PropTypes.node.isRequired,
-    pageTranslations: PropTypes.arrayOf({
-        langKey: PropTypes.string.isRequired,
-        slug: PropTypes.string.isRequired,
-    }),
+    pageTranslations: PropTypes.arrayOf(
+        PropTypes.shape({
+            langKey: PropTypes.string.isRequired,
+            slug: PropTypes.string.isRequired,
+        })
+    ),
 };
 
 export default Layout;

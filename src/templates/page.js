@@ -38,7 +38,7 @@ export const query = graphql`
                 author
             }
         }
-        page: markdownRemark(frontmatter: { slug: { eq: $slug } }) {
+        page: markdownRemark(fields: { slug: { eq: $slug } }) {
             html
             excerpt
             fields {
@@ -60,8 +60,6 @@ export const query = graphql`
                 node {
                     fields {
                         langKey
-                    }
-                    frontmatter {
                         slug
                     }
                 }

@@ -26,28 +26,32 @@ function Nav({ className, pageTranslations = [] }) {
                     {data.site.siteMetadata.title}
                 </Link>
             </div>
-            <ul className={styles.menu}>
-                {pageTranslations.map(({ langKey, slug }) => (
-                    <li>
-                        <button
-                            className={styles.btnLink}
-                            onClick={() => changeLocale(langKey, slug)}
-                        >
-                            <FormattedMessage id={`read_in_${langKey}`} />
-                        </button>
-                    </li>
-                ))}
-            </ul>
+            {pageTranslations.length > 0 && (
+                <ul className={styles.menu}>
+                    {pageTranslations.map(({ langKey, slug }) => (
+                        <li key={langKey}>
+                            <button
+                                className={styles.btnLink}
+                                onClick={() => changeLocale(langKey, slug)}
+                            >
+                                <FormattedMessage id={`read_in_${langKey}`} />
+                            </button>
+                        </li>
+                    ))}
+                </ul>
+            )}
         </nav>
     );
 }
 
 Nav.propTypes = {
     className: PropTypes.string,
-    pageTranslations: PropTypes.arrayOf({
-        langKey: PropTypes.string.isRequired,
-        slug: PropTypes.string.isRequired,
-    }),
+    pageTranslations: PropTypes.arrayOf(
+        PropTypes.shape({
+            langKey: PropTypes.string.isRequired,
+            slug: PropTypes.string.isRequired,
+        })
+    ),
 };
 
 export default Nav;

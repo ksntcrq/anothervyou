@@ -5,7 +5,7 @@ import { FormattedDate } from "react-intl";
 import Tags from "../components/Tags/Tags";
 import styles from "./templates.module.scss";
 import SEO from "../components/SEO/SEO";
-import { formatTranslations } from "../pages/utils/format";
+import { formatTranslations } from "../pages/utils/format"
 
 export default ({
     data: {
@@ -42,7 +42,7 @@ export default ({
                     </time>
                 </header>
                 <div dangerouslySetInnerHTML={{ __html: post.html }} />
-                <Tags tags={post.frontmatter.tags} />
+                {post.frontmatter.tags && <Tags tags={post.frontmatter.tags} />}
             </article>
         </Layout>
     );
@@ -55,7 +55,7 @@ export const query = graphql`
                 author
             }
         }
-        post: markdownRemark(frontmatter: { slug: { eq: $slug } }) {
+        post: markdownRemark(fields: { slug: { eq: $slug } }) {
             html
             excerpt
             fields {
@@ -79,8 +79,6 @@ export const query = graphql`
                 node {
                     fields {
                         langKey
-                    }
-                    frontmatter {
                         slug
                     }
                 }

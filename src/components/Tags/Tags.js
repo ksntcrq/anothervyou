@@ -3,10 +3,10 @@ import PropTypes from "prop-types";
 import styles from "./Tags.module.scss";
 import { FormattedMessage } from "react-intl";
 import { Link } from "gatsby-plugin-intl";
-import kebabCase from "kebab-case";
+import dashify from "dashify";
 
 function Tags({ tags = [] }) {
-    return tags.length > 0 && (
+    return (
         <div className={styles.tags}>
             <span className={styles.title}>
                 <FormattedMessage id="tags" /> -
@@ -14,7 +14,7 @@ function Tags({ tags = [] }) {
             <ul className={styles.list}>
                 {tags.map(tag => (
                     <li key={tag} className={styles.item}>
-                        <Link to={`/tags/${kebabCase(tag)}`}>{tag}</Link>
+                        <Link to={`/tags/${dashify(tag)}`}>{tag}</Link>
                     </li>
                 ))}
             </ul>
