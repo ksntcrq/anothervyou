@@ -2,8 +2,8 @@ import React from "react";
 import Layout from "../components/Layout/Layout";
 import { graphql } from "gatsby";
 import { Link } from "gatsby-plugin-intl";
-import { Helmet } from "react-helmet";
 import { useIntl } from "react-intl";
+import SEO from "../components/SEO/SEO";
 
 export default ({
     pageContext: { locale, tag },
@@ -16,20 +16,17 @@ export default ({
 
     return (
         <Layout locale={locale}>
-            <Helmet>
-                <title>
-                    {tag} - {siteMetadata.author}
-                </title>
-                <meta
-                    name="description"
-                    content={intl.formatMessage(
-                        { id: "tag_description" },
-                        { number: postsMarkdownRemark.totalCount, tag }
-                    )}
-                />
-                <meta name="robots" content="index,follow" />
-                <meta name="keywords" content={tag} />
-            </Helmet>
+            <SEO
+                title={tag}
+                description={intl.formatMessage(
+                    { id: "tag_description" },
+                    { number: postsMarkdownRemark.totalCount, tag }
+                )}
+                tags={[tag]}
+                author={siteMetadata.author}
+                locale={locale}
+                langKey={locale}
+            />
             <h1>{tag}</h1>
             <ul>
                 {postsMarkdownRemark.edges.map(({ node }) => (

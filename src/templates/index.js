@@ -3,30 +3,33 @@ import { graphql } from "gatsby";
 import Layout from "../components/Layout/Layout";
 import ArticlePreview from "../components/ArticlePreview/ArticlePreview";
 import styles from "./templates.module.scss";
-import { Helmet } from "react-helmet";
 import { useIntl } from "react-intl";
+import SEO from "../components/SEO/SEO";
+import { formatTranslations } from "../pages/utils/format";
 
 export default ({
     data: {
         postsMarkdownRemark,
         site: { siteMetadata },
+        pageTranslationsMarkdownRemark,
     },
     pageContext: { locale },
 }) => {
     const intl = useIntl();
 
+    const pageTranslations = formatTranslations(
+        pageTranslationsMarkdownRemark.edges
+    );
+
     return (
-        <Layout locale={locale}>
-            <Helmet>
-                <title>
-                    {siteMetadata.title} - {siteMetadata.author}
-                </title>
-                <meta
-                    name="description"
-                    content={intl.formatMessage({ id: 'index_description' })}
-                />
-                <meta name="robots" content="index,follow" />
-            </Helmet>
+        <Layout locale={locale} pageTranslations={pageTranslations}>
+            <SEO
+                title={siteMetadata.title}
+                author={siteMetadata.author}
+                description={intl.formatMessage({ id: "index_description" })}
+                locale={locale}
+                langKey={locale}
+            />
             <ul className={styles.unstyledList}>
                 {postsMarkdownRemark.edges.map(({ node }) => (
                     <li key={node.id}>
@@ -43,7 +46,7 @@ export default ({
 };
 
 export const query = graphql`
-    query($locale: String!) {
+    query($locale: String!, $namespace: String!) {
         site {
             siteMetadata {
                 title
@@ -67,6 +70,25 @@ export const query = graphql`
                     frontmatter {
                         slug
                         title
+                    }
+                }
+            }
+        }
+        pageTranslationsMarkdownRemark: allMarkdownRemark(
+            filter: {
+                fields: {
+                    namespace: { eq: $namespace }
+                    langKey: { ne: $locale }
+                }
+            }
+        ) {
+            edges {
+                node {
+                    fields {
+                        langKey
+                    }
+                    frontmatter {
+                        slug
                     }
                 }
             }

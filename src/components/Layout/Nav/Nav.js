@@ -4,10 +4,9 @@ import { graphql, useStaticQuery } from "gatsby";
 import styles from "./Nav.module.scss";
 import { Link, changeLocale } from "gatsby-plugin-intl";
 import classNames from "classnames";
+import { FormattedMessage } from "react-intl";
 
-function Nav({ className, locale, translatedPageSlug }) {
-    const otherLocale = locale === "fr" ? "en" : "fr";
-
+function Nav({ className, pageTranslations = [] }) {
     const data = useStaticQuery(
         graphql`
             query {
@@ -28,27 +27,27 @@ function Nav({ className, locale, translatedPageSlug }) {
                 </Link>
             </div>
             <ul className={styles.menu}>
-                <li>
-                    <button
-                        className={styles.btnLink}
-                        onClick={() =>
-                            changeLocale(otherLocale, translatedPageSlug)
-                        }
-                    >
-                        {otherLocale === "fr"
-                            ? "Lire en Français"
-                            : "Read in English"}
-                    </button>
-                </li>
+                {pageTranslations.map(({ langKey, slug }) => (
+                    <li>
+                        <button
+                            className={styles.btnLink}
+                            onClick={() => changeLocale(langKey, slug)}
+                        >
+                            <FormattedMessage id={`read_in_${langKey}`} />
+                        </button>
+                    </li>
+                ))}
             </ul>
         </nav>
     );
 }
 
 Nav.propTypes = {
-    locale: PropTypes.string.isRequired,
     className: PropTypes.string,
-    translatedPageSlug: PropTypes.string,
+    pageTranslations: PropTypes.arrayOf({
+        langKey: PropTypes.string.isRequired,
+        slug: PropTypes.string.isRequired,
+    }),
 };
 
 export default Nav;

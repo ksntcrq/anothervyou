@@ -5,13 +5,12 @@ import Nav from "./Nav/Nav";
 import Footer from "./Footer/Footer";
 require("typeface-libre-baskerville");
 
-function Layout({ children, locale, translatedPageSlug }) {
+function Layout({ children, pageTranslations }) {
     return (
         <>
             <Nav
                 className={styles.nav}
-                locale={locale}
-                translatedPageSlug={translatedPageSlug}
+                pageTranslations={pageTranslations}
             />
             <main className={styles.content}>{children}</main>
             <Footer className={styles.footer} />
@@ -21,8 +20,10 @@ function Layout({ children, locale, translatedPageSlug }) {
 
 Layout.propTypes = {
     children: PropTypes.node.isRequired,
-    locale: PropTypes.string.isRequired,
-    translatedPageSlug: PropTypes.string,
+    pageTranslations: PropTypes.arrayOf({
+        langKey: PropTypes.string.isRequired,
+        slug: PropTypes.string.isRequired,
+    }),
 };
 
 export default Layout;

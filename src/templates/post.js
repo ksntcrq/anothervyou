@@ -4,33 +4,31 @@ import { graphql } from "gatsby";
 import { FormattedDate } from "react-intl";
 import Tags from "../components/Tags/Tags";
 import styles from "./templates.module.scss";
-import { Helmet } from "react-helmet";
+import SEO from "../components/SEO/SEO";
+import { formatTranslations } from "../pages/utils/format";
 
 export default ({
     data: {
         post,
-        translatedPost,
+        postTranslationsMarkdownRemark,
         site: { siteMetadata },
     },
     pageContext: { locale },
 }) => {
+    const postTranslations = formatTranslations(
+        postTranslationsMarkdownRemark.edges
+    );
+
     return (
-        <Layout
-            locale={locale}
-            translatedPageSlug={translatedPost.frontmatter.slug}
-        >
-            <Helmet>
-                <title>
-                    {post.frontmatter.title} - {siteMetadata.author}
-                </title>
-                <meta name="description" content={post.excerpt} />
-                <meta
-                    name="keywords"
-                    content={post.frontmatter.tags.join(", ")}
-                />
-                <meta name="robots" content="index,follow" />
-                <meta name="author" content={siteMetadata.author} />
-            </Helmet>
+        <Layout pageTranslations={postTranslations}>
+            <SEO
+                title={post.frontmatter.title}
+                description={post.excerpt}
+                author={siteMetadata.author}
+                tags={post.tags}
+                locale={locale}
+                langKey={post.fields.langKey}
+            />
             <article>
                 <header className={styles.header}>
                     <h1 className={styles.title}>{post.frontmatter.title}</h1>
@@ -60,17 +58,32 @@ export const query = graphql`
         post: markdownRemark(frontmatter: { slug: { eq: $slug } }) {
             html
             excerpt
+            fields {
+                langKey
+            }
             frontmatter {
                 title
                 date
                 tags
             }
         }
-        translatedPost: markdownRemark(
-            fields: { namespace: { eq: $namespace }, langKey: { ne: $locale } }
+        postTranslationsMarkdownRemark: allMarkdownRemark(
+            filter: {
+                fields: {
+                    namespace: { eq: $namespace }
+                    langKey: { ne: $locale }
+                }
+            }
         ) {
-            frontmatter {
-                slug
+            edges {
+                node {
+                    fields {
+                        langKey
+                    }
+                    frontmatter {
+                        slug
+                    }
+                }
             }
         }
     }
