@@ -3,5 +3,7 @@
   "tags": "Tags",
   "en": "English",
   "fr": "French",
-  "continue_reading": "Continue reading →"
+  "continue_reading": "Continue reading →",
+  "index_description": "Anothervyou focuses on the unseen you left aside. It already features travelogues from North Korea, Cuba, Georgia and Vietnam.",
+  "tag_description": "Read {number} article(s) about \"{tag}\"."
 }

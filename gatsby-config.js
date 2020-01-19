@@ -7,6 +7,7 @@
 module.exports = {
     siteMetadata: {
         title: `anothervyou`,
+        author: `Killian Saint cricq`
     },
     plugins: [
         {
@@ -47,5 +48,6 @@ module.exports = {
         },
         `gatsby-plugin-sharp`,
         `gatsby-plugin-sass`,
+        `gatsby-plugin-react-helmet`,
     ],
 };

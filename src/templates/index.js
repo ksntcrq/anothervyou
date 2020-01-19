@@ -3,10 +3,30 @@ import { graphql } from "gatsby";
 import Layout from "../components/Layout/Layout";
 import ArticlePreview from "../components/ArticlePreview/ArticlePreview";
 import styles from "./templates.module.scss";
+import { Helmet } from "react-helmet";
+import { useIntl } from "react-intl";
 
-export default ({ data: { postsMarkdownRemark }, pageContext: { locale } }) => {
+export default ({
+    data: {
+        postsMarkdownRemark,
+        site: { siteMetadata },
+    },
+    pageContext: { locale },
+}) => {
+    const intl = useIntl();
+
     return (
         <Layout locale={locale}>
+            <Helmet>
+                <title>
+                    {siteMetadata.title} - {siteMetadata.author}
+                </title>
+                <meta
+                    name="description"
+                    content={intl.formatMessage({ id: 'index_description' })}
+                />
+                <meta name="robots" content="index,follow" />
+            </Helmet>
             <ul className={styles.unstyledList}>
                 {postsMarkdownRemark.edges.map(({ node }) => (
                     <li key={node.id}>
@@ -24,6 +44,12 @@ export default ({ data: { postsMarkdownRemark }, pageContext: { locale } }) => {
 
 export const query = graphql`
     query($locale: String!) {
+        site {
+            siteMetadata {
+                title
+                author
+            }
+        }
         postsMarkdownRemark: allMarkdownRemark(
             sort: { fields: [frontmatter___date], order: DESC }
             filter: {
