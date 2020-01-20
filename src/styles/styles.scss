@@ -19,6 +19,17 @@ a {
     }
 }
 
+figure {
+    margin: 0;
+}
+
+figcaption {
+    margin-top: 10px;
+    font-style: italic;
+    font-size: $font-size-small;
+    color: #888888;
+}
+
 ::selection {
     background-color: $light-primary-color;
 }
