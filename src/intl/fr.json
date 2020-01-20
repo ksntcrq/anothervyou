@@ -7,5 +7,8 @@
     "read_in_en": "Read in English",
     "continue_reading": "Lire la suite →",
     "index_description": "Anothervyou se concentre sur l'inattendu. Des articles sur la Corée du Nord, Cuba, la Géorgie et le Vietnam sont d'ores-et-déjà disponibles.",
-    "tag_description": "Lis {number} article(s) à propos de \"{tag}\"."
+    "tag_description": "Lis {number} article(s) à propos de \"{tag}\".",
+
+    "post_tag_georgia": "Géorgie",
+    "post_tag_roadtrip": "roadtrip"
 }

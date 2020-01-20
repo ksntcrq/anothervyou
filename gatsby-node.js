@@ -75,14 +75,16 @@ exports.createPages = async ({ actions, graphql }) => {
         });
     });
     result.data.tagsGroup.group.forEach(tag => {
-        const dashifiedTag = dashify(tag.fieldValue);
         tag.edges.forEach(({ node }) => {
+            const langKey = node.fields.langKey;
+            const messages = require(`./src/intl/${langKey}.json`);
+            const translatedTag = messages[`post_tag_${tag.fieldValue}`];
             createPage({
-                path: `/${node.fields.langKey}/tags/${dashifiedTag}`,
+                path: `/${langKey}/tags/${dashify(translatedTag)}`,
                 component: path.resolve("./src/templates/tags.js"),
                 context: {
                     tag: tag.fieldValue,
-                    locale: node.fields.langKey,
+                    locale: langKey,
                 },
             });
         });

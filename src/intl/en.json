@@ -7,5 +7,8 @@
     "read_in_en": "Read in English",
     "continue_reading": "Continue reading →",
     "index_description": "Anothervyou focuses on the unseen you left aside. It already features travelogues from North Korea, Cuba, Georgia and Vietnam.",
-    "tag_description": "Read {number} article(s) about \"{tag}\"."
+    "tag_description": "Read {number} article(s) about \"{tag}\".",
+
+    "post_tag_georgia": "Georgia",
+    "post_tag_roadtrip": "roadtrip"
 }

@@ -12,21 +12,26 @@ export default ({
     },
 }) => {
     const intl = useIntl();
-
+    const translatedTag = intl.formatMessage({
+        id: `post_tag_${tag}`,
+    });
     return (
         <Layout locale={locale}>
             <SEO
-                title={tag}
+                title={translatedTag}
                 description={intl.formatMessage(
                     { id: "tag_description" },
-                    { number: postsMarkdownRemark.totalCount, tag }
+                    {
+                        number: postsMarkdownRemark.totalCount,
+                        tag: translatedTag,
+                    }
                 )}
-                tags={[tag]}
+                tags={[translatedTag]}
                 author={siteMetadata.author}
                 locale={locale}
                 langKey={locale}
             />
-            <h1>{tag}</h1>
+            <h1>{translatedTag}</h1>
             <ul>
                 {postsMarkdownRemark.edges.map(({ node }) => (
                     <li key={node.id}>
