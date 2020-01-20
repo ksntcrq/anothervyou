@@ -2,6 +2,7 @@
 title: "Pyongyang ou la vitrine de la Corée du Nord"
 date: "2018-10-01"
 template: "post"
+draft: true
 ---
 
 Vingt-quatre heures après avoir quitté Pékin, les gigantesques immeubles religieusement disposés dans le paysage ont laissé place à des bâtiments plus modestes, aux façades décrépies. Nous sommes à mi-chemin entre Sinuiju, ville par laquelle nous sommes entrés en République populaire démocratique de Corée (RPDC, nom officiel de la Corée du Nord), et Pyongyang, la capitale. Le train-couchettes, bringuebalant le long des routes désertées par les voitures, transporte environ soixante-dix voyageurs à son bord.

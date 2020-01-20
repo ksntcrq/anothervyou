@@ -2,6 +2,7 @@
 title: "In the Mekong Delta"
 date: "2019-09-11"
 template: "post"
+draft: true
 ---
 
 Two days in the bustle of Ho Chi Minh City are enough to get its main features. Previously named Saigon, it was renamed in 1975 as a tribute to the revolutionary leader, whose pseudonym means "bringer of light". On the road and in the streets, the atmosphere is as chaotic as it gets: eight million scooters invade even the sidewalks, however barred by concrete blocks. Stepping in a bus is like navigating in an ocean of two-wheelers brushing dangerously the liner, moving forward in the swell. And the ocean is not of water but of lava, as the sun burns when it finds its way through the clouds. Maybe, then, is it to escape its destiny that the bus does not completely stop when new passengers are boarding or others going back to the turbulent waters. The craziness of this road traffic is exacerbated in the most crowded city of Vietnam - but rural zones have nothing to envy.

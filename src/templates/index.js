@@ -57,7 +57,7 @@ export const query = graphql`
             sort: { fields: [frontmatter___date], order: DESC }
             filter: {
                 fields: { langKey: { eq: $locale } }
-                frontmatter: { template: { eq: "post" } }
+                frontmatter: { template: { eq: "post" }, draft: { ne: true } }
             }
         ) {
             edges {

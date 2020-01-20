@@ -2,6 +2,7 @@
 title: "A soviet building"
 date: "2019-12-08"
 template: "post"
+draft: true
 ---
 
 These pictures were shot in the Borjomi gorge (Georgia), in May 2019. Their story is told in the article named "[Abandoned Georgia](https://anothervyou.world/en/abandoned-georgia/)".

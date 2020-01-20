@@ -31,6 +31,7 @@ exports.createPages = async ({ actions, graphql }) => {
     const result = await graphql(`
         {
             pagesRemark: allMarkdownRemark(
+                filter: { frontmatter: { draft: { ne: true } } }
                 sort: { order: DESC, fields: [frontmatter___date] }
             ) {
                 edges {

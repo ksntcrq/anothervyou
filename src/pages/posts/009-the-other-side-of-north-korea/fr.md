@@ -2,6 +2,7 @@
 title: "La face cachée de la Corée du Nord"
 date: "2018-12-09"
 template: "post"
+draft: true
 ---
 
 Lorsque l'avion quitte le sol de la capitale nord-coréenne, les touristes ont cette excitation coupable qui apparaît naturellement en situation de léger péril. L'appareil, datant des années 60, ne respecte certainement pas l'ensemble des normes de sécurité internationales. Les masques à oxygène et les gilets de sauvetage sont peut-être restés en Russie, son pays d'origine, avec l'air sibérien que soufflent habituellement les ventilations. Les consignes de sécurité, quant à elles, sont à peine audibles : le boucan assourdissant de l'avion couvre les quelques décibels qui sortent des vieilles enceintes grésillantes. Nous sommes à bord de l'un des deux vols internes prévus aujourd'hui au départ de Pyongyang. L'un s'envole pour Uiju quand l'autre, à destination d'Orang, nous permet de rejoindre le Nord-Est du pays en à peine une heure.

@@ -2,6 +2,7 @@
 title: "A North-South Cuban journey"
 date: "2018-08-07"
 template: "post"
+draft: true
 ---
 
 If so many stories emerge from [Cuban roads](https://anothervyou.world/en/from-cuban-roads/), the reason is certainly that we used them to go through the whole country. After [hours of walking](https://anothervyou.world/en/in-the-vinales-valley/) and some [paradisiac beaches](https://anothervyou.world/en/womens-day-in-the-bay-of-pigs/), we are heading South. Before Santiago de Cuba, we are going to stop in Cienfuegos, El Nicho, Trinidad and Camagüey. The mercury rises as our latitude declines; propagandist signs, in place of the advertisements typical of our capitalist societies, grow in frequency; and the Spanish accent becomes more and more difficult to understand.

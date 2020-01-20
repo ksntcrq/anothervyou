@@ -2,6 +2,7 @@
 title: "Du Nord au Sud de Cuba"
 date: "2018-07-31"
 template: "post"
+draft: true
 ---
 
 Si [des routes cubaines](https://anothervyou.world/des-routes-cubaines/) fleurissent tant d'anecdotes, c'est qu'elles nous ont permis de traverser le pays dans toute sa longueur. Après des [heures de marche](https://anothervyou.world/dans-la-vallee-de-vinales/) suivies de [plages paradisiaques](https://anothervyou.world/journee-femme-baie-des-cochons/), nous nous dirigeons vers le sud du pays. Avant Santiago de Cuba, nous trouvons ainsi sur notre chemin Cienfuegos, El Nicho, Trinidad et Camagüey. Le mercure s'élève à mesure que notre latitude s'amoindrit ; les panneaux propagandistes, qui se substituent aux pubs caractéristiques de nos sociétés capitalistes, se font plus fréquents ; et l'accent espagnol devient de plus en plus difficile à saisir.

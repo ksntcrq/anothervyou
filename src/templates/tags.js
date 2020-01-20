@@ -55,7 +55,7 @@ export const query = graphql`
         postsMarkdownRemark: allMarkdownRemark(
             sort: { fields: [frontmatter___date], order: DESC }
             filter: {
-                frontmatter: { tags: { in: [$tag] } }
+                frontmatter: { tags: { in: [$tag] }, draft: { ne: true } }
                 fields: { langKey: { eq: $locale } }
             }
         ) {

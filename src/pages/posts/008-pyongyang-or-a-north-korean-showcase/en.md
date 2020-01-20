@@ -2,6 +2,7 @@
 title: "Pyongyang or a North Korean showcase"
 date: "2018-10-07"
 template: "post"
+draft: true
 ---
 
 Twenty-four hours after leaving Beijing, high-rise buildings religiously set in the landscape have been replaced by smaller ones, with crumble facades. We are half-way between Sinuiju, where we entered the Democratic People's Republic of Korea (DPRK, official name of North Korea), and Pyongyang, its capital. The sleeper train, staggering along the empty roads, is carrying about seventy travellers.

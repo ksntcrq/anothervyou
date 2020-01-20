@@ -2,6 +2,7 @@
 title: "La journée de la femme dans la baie des Cochons"
 date: "2018-06-09"
 template: "post"
+draft: true
 ---
 
 Après avoir foulé le bitume brûlant de la Havane et divagué dans les reliefs étouffants de Viñales, la même voiture qui nous a promenés entre les deux villes nous emmène maintenant vers les plages de la baie des Cochons, plus au Sud. C'est sur ce sable fin, et après avoir survolé de superbes récifs coralliens, que des centaines de militaires états-uniens ont lourdement échoué lorsqu'ils ont tenté d'envahir Cuba en 1961. Au-delà du tournant historique marqué par ce camouflet, la zone est particulièrement fameuse pour ses fonds marins à couper le souffle et très faciles d'accès. L'occasion de pénétrer dans un monde coloré - et dangereusement bondé d'oursins.

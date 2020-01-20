@@ -2,6 +2,7 @@
 title: "Une cité soviétique"
 date: "2019-12-07"
 template: "post"
+draft: true
 ---
 
 Ces clichés ont été pris dans la vallée de Borjomi (Géorgie), en mai 2019. Leur histoire est contée dans l'article intitulé "[En Géorgie abandonnée](https://anothervyou.world/fr/en-georgie-abandonnee/)".
