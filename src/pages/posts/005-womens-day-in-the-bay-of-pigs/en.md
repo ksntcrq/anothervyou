@@ -24,4 +24,4 @@ These celebrations are rather surprising given the way some men see women in Cub
 
 Before heading to Cienfuegos, we take a four-hour break at Playa Girón to enjoy the marine ecosystem a bit longer. During the morning, we were able to do birdwatching and see some of the island's endemic birds in the national park standing between the two beaches. Two days in the Bay of Pigs, and we are on the road again. By the way, for your information, the Bay of Pigs is named after a fish specie called _cochinos_, which also means pig, in Cuban Spanish. Nothing to do with pigs of any sort, then...
 
-![Bar on the beach of Playa Girón.](../../../images/cuba/playa-giron-bar.jpg "Bar on the beach")
+![A bar, on the beach of Playa Girón.](../../../images/cuba/playa-giron-bar.jpg "A bar on the beach")

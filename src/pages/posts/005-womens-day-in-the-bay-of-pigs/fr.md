@@ -24,4 +24,4 @@ Ces festivités sont plutôt surprenantes au vu du regard que beaucoup d'hommes 
 
 Avant de rejoindre Cienfuegos, nous faisons escale pour quelques heures à Playa Girón pour profiter encore un peu de l'écosystème entourant la barrière de corail. Le matin, nous avons pu observer de nombreuses espèces d'oiseaux endémiques dans le parc national qui sépare les deux plages. Deux jours dans la baie des Cochons, et nous voilà à nouveau en route. D'ailleurs, pour information, la baie des Cochons tient son nom d'une espèce de poissons appelée _cochinos_ en espagnol cubain. Rien à voir avec les cochons quels qu'ils soient, donc...
 
-![Bar sur la plage de Playa Girón.](../../../images/cuba/playa-giron-bar.jpg "Bar sur la plage")
+![Un bar, sur la plage de Playa Girón.](../../../images/cuba/playa-giron-bar.jpg "Un bar sur la plage")
