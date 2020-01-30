@@ -71,6 +71,9 @@ export const query = graphql`
         }
         postTranslationsMarkdownRemark: allMarkdownRemark(
             filter: {
+                frontmatter: {
+                    draft: { ne: true }
+                }
                 fields: {
                     namespace: { eq: $namespace }
                     langKey: { ne: $locale }
