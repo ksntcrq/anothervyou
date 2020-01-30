@@ -90,7 +90,7 @@ Here are some more pictures shot in Pyongyang (hover them to have more details, 
 
 ![Colorful soviet buildings, near the Victorious War Museum.](../../../images/north-korea/pyongyang-arch-of-reunification.jpg "Soviet buildings")
 
-![A street scene.](../../../images/north-korea/pyongyang-street-2.jpg "A street scene")
+![A street scene, in Pyongyang.](../../../images/north-korea/pyongyang-street-2.jpg "A street scene")
 
 ![View over some buildings of the East of Pyongyang.](../../../images/north-korea/pyongyang-buildings-2.jpg "The architecture of Pyongyang")
 
@@ -102,4 +102,4 @@ Here are some more pictures shot in Pyongyang (hover them to have more details, 
 
 ![Apartments on the Future Scientists Avenue, where buildings are nicely lit at night.](../../../images/north-korea/pyongyang-night-building.jpg "Apartments on the New Scientist Avenue")
 
-![Apartments on the Future Scientists Avenue, where buildings are nicely lit at night.](../../../images/north-korea/pyongyang-arch-of-reunification.jpg "Apartments on the New Scientist Avenue")
+![Apartments on the Future Scientists Avenue, where buildings are nicely lit at night.](../../../images/north-korea/pyongyang-night-building-2.jpg "Apartments on the New Scientist Avenue")
