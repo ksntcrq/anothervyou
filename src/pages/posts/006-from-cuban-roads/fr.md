@@ -24,7 +24,7 @@ Arrivés à Camagüey, nous voyons à l'œuvre le fonctionnement du GPS cubain. 
 
 Il est intéressant de noter que les taxis transportant des étrangers sur de longues distances sont parmi les mieux lotis de la société cubaine. L'un d'entre eux m'a confié gagner autour de 1 700 dollars par mois, desquels il faut retrancher 700 dollars donnés à l'Etat pour le droit d'exercer ainsi qu'environ 500 dollars pour l'entretien du véhicule. Au final lui reste une somme vingt fois plus élevée que le salaire mensuel moyen, servant à subvenir aux besoins de sa famille. Cependant, un chauffeur de taxi exerçant à La Havane - et n'effectuant donc que des trajets au sein même de la ville - a réfuté ces dires et assuré qu'il ne gagnait jamais autant. Mais ils se retrouvent sur un point : tous deux travaillent tous les jours, week-end compris, sans jamais prendre de vacances.
 
-![Le pédalier d'un taxi toujours en service.](../../../images/cuba/cienfuegos-carriage.jpg "Le pédalier d'un taxi")
+![Le pédalier d'un taxi toujours en service.](../../../images/cuba/taxi-pedals.jpg "Le pédalier d'un taxi")
 
 La voiture dans laquelle nous gagnons Santiago de Cuba est un exemple typique des antiquités qui traversent le pays : elle est américaine mais pleine de pièces russes, il pleut à l'intérieur lorsqu'il pleut à l'extérieur et, évidemment, les ceintures manquent à l'appel. Mais, en contrepartie, il est possible d'y connecter nos téléphones en bluetooth : l'occasion d'écouter _Clandestino_ de Manu Chao, fenêtres ouvertes et soleil ardent. Le vent qui s'engouffre par les fenêtres adoucit la chaleur du jour et renforce le sentiment de liberté caractérisant le moment présent.
 
@@ -38,4 +38,4 @@ Une fois n'est pas coutume, nous n'avons, lors de ce trajet, eu aucun problème 
 
 Pour changer de ces trajets interminables mais plein d'apprentissages, le train se substituera aux vieilles caisses métalliques et me transportera, dix jours plus tard, de Las Tunas à Santa Clara. La réaction des locaux à cette annonce est assez amusante... et présage, une nouvelle fois, d'un transport en longueur !
 
-![Une route défoncée, aux alentours de Moa.](../../../images/cuba/trinidad-car-repair.jpg "Une route défoncée")
+![Une route défoncée, aux alentours de Moa.](../../../images/cuba/moa-road.jpg "Une route défoncée")
