@@ -36,8 +36,8 @@ Once the night falls, the value of music and the freedom people feel about it st
 
 As a bonus, here are some more pictures:
 
-![People sitting along the Malecón.](../../../images/cuba/havana-night.jpg "People sitting along the Malecón")
+![People sitting along the Malecón.](../../../images/cuba/havana-malecon.jpg "People sitting along the Malecón")
 
-![A woman, on her balcony.](../../../images/cuba/havana-night.jpg "A woman, on her balcony")
+![A woman, on her balcony.](../../../images/cuba/havana-balcony.jpg "A woman, on her balcony")
 
-![One of the many old buildings of Havana, under the warm sunset lights.](../../../images/cuba/havana-night.jpg "An old building")
+![One of the many old buildings of Havana, under the warm sunset lights.](../../../images/cuba/havana-sunset.jpg "An old building")

@@ -36,8 +36,8 @@ La nuit tombée, l'importance de la musique et le sentiment de liberté qui habi
 
 En bonus, quelques photos supplémentaires :
 
-![Personnes assises le long de la Malecón.](../../../images/cuba/havana-night.jpg "Personnes assises le long de la Malecón")
+![Personnes assises le long de la Malecón.](../../../images/cuba/havana-malecon.jpg "Personnes assises le long de la Malecón")
 
-![Une femme sur son balcon.](../../../images/cuba/havana-night.jpg "Une femme sur son balcon")
+![Une femme sur son balcon.](../../../images/cuba/havana-balcony.jpg "Une femme sur son balcon")
 
-![Coucher de soleil sur un des nombreux vieux bâtiments de la ville.](../../../images/cuba/havana-night.jpg "Un vieux bâtiment")
+![Coucher de soleil sur un des nombreux vieux bâtiments de la ville.](../../../images/cuba/havana-sunset.jpg "Un vieux bâtiment")
