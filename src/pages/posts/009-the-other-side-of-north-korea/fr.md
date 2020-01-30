@@ -66,19 +66,9 @@ Les jours suivants montreront encore les paradoxes de la Corée du Nord. Malgré
 
 Pyongyang offre finalement une vision idyllique que le Nord, plus pauvre, contrebalance. Explorer cette région reculée et si peu visitée permet de découvrir une autre Corée du Nord, bloquée dans le passé mais encore préservée du tourisme. À notre arrivée, un adolescent courait derrière un panneau pour se cacher au passage de notre bus ; à notre départ, des sourires se dessinent sur le visage de dizaines de femmes, ravies de nous voir et de nous saluer. Symbole de la diversité d'un pays que la sur-médiatisation du pouvoir dictatorial pourrait faire apparaître, à tort, comme complètement uniforme.
 
-_(1) Du nom de la philosophie régissant le mode de vie nord-coréen depuis qu'elle a été pensée par Kim Il-sung, le fer Juche est depuis peu produit dans une deuxième usine, près de Pyongyang ([source](https://www.upi.com/North-Korea-says-self-reliant-iron-facility-will-begin-production/5411538413159/), en Anglais seulement)._
-
-_(2) Au moment du voyage, 1 euro équivalait à plus de 8 000 wons. Selon [Wikipedia](https://fr.wikipedia.org/wiki/Won_nord-cor%C3%A9en), en 2016, 1 euro s'échangeait contre 980 wons._
-
-_(3) De la même manière, la mer jaune est quant à elle appelée "mer de l'Ouest" ([voir la géographie de la Corée](http://www.amitiefrancecoree.org/pages/La_geographie_de_la_Coree-1995170.html))._
-
-_(4) Pour la première fois depuis les années 1980, la Corée du Nord a annoncé, en 2016 la mise en place d'un plan quinquennal ([source](https://www.washingtonpost.com/world/north-korea-announces-economic-plan-after-unprecedentedly-grim-struggle/2016/05/08/c84088e2-1214-11e6-a9b5-bf703a5a7191_story.html?utm_term=.089b892bcf9f), en Anglais seulement)._
-
-_(5) "Let's escort the party by carrying out the five-year strategic goal of national economic development" ([source](http://www.koreatimes.co.kr/www/nation/2018/09/103_255561.html), en Anglais seulement)._
-
 -----
 
-## Bonus photos
+## Bonus
 
 En bonus, voici quelques photographies supplémentaires prises à Chongjin (passez la souris au dessus des images pour avoir plus d'information, ou cliquez dessus si vous êtes sur mobile) :
 
@@ -89,3 +79,15 @@ En bonus, voici quelques photographies supplémentaires prises à Chongjin (pass
 ![Une peinture, représentant Kim Il-sung et Kim Jong-il. Cette photo aurait dû être supprimée : le portrait, m'a-t-on reproché, aurait dû être l'objet principal du cliché, plutôt qu'être relégué dans un coin.](../../../images/north-korea/chongjin-leaders.jpg "Un portrait de Kim Il-sung et Kim Jong-il")
 
 ![Un bâtiment à la façade décrépie, en banlieue de Chongjin.](../../../images/north-korea/chongjin-buildings.jpg "Un vieux bâtiment")
+
+-----
+
+(1) Du nom de la philosophie régissant le mode de vie nord-coréen depuis qu'elle a été pensée par Kim Il-sung, le fer Juche est depuis peu produit dans une deuxième usine, près de Pyongyang ([source](https://www.upi.com/North-Korea-says-self-reliant-iron-facility-will-begin-production/5411538413159/), en Anglais seulement).
+
+(2) Au moment du voyage, 1 euro équivalait à plus de 8 000 wons. Selon [Wikipedia](https://fr.wikipedia.org/wiki/Won_nord-cor%C3%A9en), en 2016, 1 euro s'échangeait contre 980 wons.
+
+(3) De la même manière, la mer jaune est quant à elle appelée "mer de l'Ouest" ([voir la géographie de la Corée](http://www.amitiefrancecoree.org/pages/La_geographie_de_la_Coree-1995170.html)).
+
+(4) Pour la première fois depuis les années 1980, la Corée du Nord a annoncé, en 2016 la mise en place d'un plan quinquennal ([source](https://www.washingtonpost.com/world/north-korea-announces-economic-plan-after-unprecedentedly-grim-struggle/2016/05/08/c84088e2-1214-11e6-a9b5-bf703a5a7191_story.html?utm_term=.089b892bcf9f), en Anglais seulement).
+
+(5) "Let's escort the party by carrying out the five-year strategic goal of national economic development" ([source](http://www.koreatimes.co.kr/www/nation/2018/09/103_255561.html), en Anglais seulement).

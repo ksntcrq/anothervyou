@@ -66,14 +66,6 @@ The next days will show more North Korean paradoxes. Even if religious books wer
 
 In the end, Pyongyang offers an idyllic vision the North, poorer, counterbalances. Exploring this remote and so little visited region is an excellent way to discover another North Korea, stuck in the past and preserved from tourism. When we arrived, a teenager ran behind a sign to hide from our bus; when we left, smiles spontaneously appeared on dozens of women's face, happy and pleased to see us. Symbol of the diversity of a country that the high media exposure of the centralised dictatorial power could - wrongfully - make appear completely uniform.
 
-_(1) Named after the philosophy North Korean life has been based on since it was created by Kim Il-sung, the Juche iron has been produced for a few months in another plant, near Pyongyang_ _([source](https://www.upi.com/North-Korea-says-self-reliant-iron-facility-will-begin-production/5411538413159/))._
-
-_(2) During the trip, 1 euro was worth more than 8,000 wons. You can know more about this currency by reading its [Wikipedia](https://en.wikipedia.org/wiki/North_Korean_won) page._
-
-_(3) For the first time in forty years, North Korea announced, in 2016, a new five-year plan_ _([source](https://www.washingtonpost.com/world/north-korea-announces-economic-plan-after-unprecedentedly-grim-struggle/2016/05/08/c84088e2-1214-11e6-a9b5-bf703a5a7191_story.html?utm_term=.089b892bcf9f))._
-
-_(4) "Let's escort the party by carrying out the five-year strategic goal of national economic development" ([source](http://www.koreatimes.co.kr/www/nation/2018/09/103_255561.html))._
-
 -----
 
 ## Bonus
@@ -87,3 +79,13 @@ Here are some more pictures shot in Chongjin (hover them to have more details, o
 ![A painting of Kim Il-sung and Kim Jong-il. This picture should have been removed: I was told the portrait should be the main purpose of the picture, not just in the corner.](../../../images/north-korea/chongjin-leaders.jpg "A portrait of Kim Il-sung and Kim Jong-il")
 
 ![An old and decrepit facade of a building in the suburbs of Chongjin.](../../../images/north-korea/chongjin-buildings.jpg "A building, in the suburbs of Chongjin")
+
+-----
+
+(1) Named after the philosophy North Korean life has been based on since it was created by Kim Il-sung, the Juche iron has been produced for a few months in another plant, near Pyongyang ([source](https://www.upi.com/North-Korea-says-self-reliant-iron-facility-will-begin-production/5411538413159/)).
+
+(2) During the trip, 1 euro was worth more than 8,000 wons. You can know more about this currency by reading its [Wikipedia](https://en.wikipedia.org/wiki/North_Korean_won) page.
+
+(3) For the first time in forty years, North Korea announced, in 2016, a new five-year plan ([source](https://www.washingtonpost.com/world/north-korea-announces-economic-plan-after-unprecedentedly-grim-struggle/2016/05/08/c84088e2-1214-11e6-a9b5-bf703a5a7191_story.html?utm_term=.089b892bcf9f)).
+
+(4) "Let's escort the party by carrying out the five-year strategic goal of national economic development" ([source](http://www.koreatimes.co.kr/www/nation/2018/09/103_255561.html)).
