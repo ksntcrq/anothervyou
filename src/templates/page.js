@@ -24,6 +24,7 @@ export default ({
                 description={page.excerpt}
                 locale={locale}
                 langKey={page.fields.langKey}
+                pageTranslations={pageTranslations}
             />
             <h1>{page.frontmatter.title}</h1>
             <div dangerouslySetInnerHTML={{ __html: page.html }} />

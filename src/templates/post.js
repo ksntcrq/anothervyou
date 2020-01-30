@@ -28,6 +28,7 @@ export default ({
                 tags={post.tags}
                 locale={locale}
                 langKey={post.fields.langKey}
+                pageTranslations={postTranslations}
             />
             <article>
                 <header className={styles.header}>

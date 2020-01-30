@@ -29,6 +29,7 @@ export default ({
                 description={intl.formatMessage({ id: "index_description" })}
                 locale={locale}
                 langKey={locale}
+                pageTranslations={pageTranslations}
             />
             <ul className={styles.unstyledList}>
                 {postsMarkdownRemark.edges.map(({ node }) => (
