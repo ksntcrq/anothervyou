@@ -27,7 +27,13 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 };
 
 exports.createPages = async ({ actions, graphql }) => {
-    const { createPage } = actions;
+    const { createPage, createRedirect } = actions;
+
+    createRedirect({
+        fromPath: '/',
+        toPath: '/fr',
+    });
+
     const result = await graphql(`
         {
             pagesRemark: allMarkdownRemark(

@@ -7,7 +7,7 @@
 module.exports = {
     siteMetadata: {
         title: `anothervyou`,
-        author: `Killian Saint cricq`
+        author: `Killian Saint cricq`,
     },
     plugins: [
         {
@@ -26,7 +26,7 @@ module.exports = {
                         options: {
                             maxWidth: 800,
                             withWebp: true,
-                            showCaptions: ['alt', 'title'],
+                            showCaptions: ["alt", "title"],
                         },
                     },
                 ],
@@ -35,5 +35,6 @@ module.exports = {
         `gatsby-plugin-sharp`,
         `gatsby-plugin-sass`,
         `gatsby-plugin-react-helmet`,
+        `gatsby-plugin-netlify`,
     ],
 };

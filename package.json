@@ -17,6 +17,7 @@
     "classnames": "^2.2.6",
     "dashify": "^2.0.0",
     "gatsby": "^2.18.12",
+    "gatsby-plugin-netlify": "^2.1.31",
     "gatsby-plugin-react-helmet": "^3.1.21",
     "gatsby-plugin-sass": "^2.1.27",
     "gatsby-plugin-sharp": "^2.3.13",
