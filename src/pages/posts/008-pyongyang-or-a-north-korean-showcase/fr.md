@@ -1,6 +1,9 @@
 ---
 title: "Pyongyang ou la vitrine de la Corée du Nord"
 date: "2018-10-01"
+categories:
+  destination: "north_korea"
+  category: "reports"
 template: "post"
 ---
 

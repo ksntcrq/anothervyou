@@ -1,10 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
 import styles from "./ArticlePreview.module.scss";
-import { FormattedMessage } from "react-intl";
+import { FormattedMessage, useIntl } from "react-intl";
 import { Link } from "gatsby";
 
-function ArticlePreview({ title, slug, excerpt }) {
+function ArticlePreview({ title, categories = {}, slug, excerpt }) {
+    const intl = useIntl();
     return (
         <article>
             <header>
@@ -20,6 +21,14 @@ function ArticlePreview({ title, slug, excerpt }) {
                     </Link>
                 </span>
             </div>
+            {categories && (
+                <footer className={styles.footer}>
+                    <FormattedMessage id="posted_in" />{" "}
+                    {Object.values(categories)
+                        .map(category => intl.formatMessage({ id: category }))
+                        .join(", ")}
+                </footer>
+            )}
         </article>
     );
 }

@@ -1,6 +1,9 @@
 ---
 title: "Cuba and the Internet"
 date: "2018-04-07"
+categories:
+  destination: "cuba"
+  category: "reports"
 template: "post"
 ---
 

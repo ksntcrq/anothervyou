@@ -1,6 +1,9 @@
 ---
 title: "Une cité soviétique"
 date: "2019-12-07"
+categories:
+  destination: "georgia"
+  category: "photo-series"
 template: "post"
 ---
 

@@ -1,6 +1,9 @@
 ---
 title: "Pyongyang or a North Korean showcase"
 date: "2018-10-07"
+categories:
+  destination: "north_korea"
+  category: "reports"
 template: "post"
 ---
 

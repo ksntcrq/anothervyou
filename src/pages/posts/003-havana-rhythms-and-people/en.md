@@ -1,6 +1,9 @@
 ---
 title: "Havana : rhythms and people"
 date: "2018-04-22"
+categories:
+  destination: "cuba"
+  category: "travelogues"
 template: "post"
 ---
 

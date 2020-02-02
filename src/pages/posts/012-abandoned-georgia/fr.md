@@ -2,6 +2,9 @@
 title: "En Géorgie abandonnée"
 date: "2019-12-08"
 tags: ["georgia", "roadtrip"]
+categories:
+  destination: "georgia"
+  category: "travelogues"
 template: "post"
 ---
 Depuis les airs, la campagne géorgienne paraît désolée, abandonnée. Des ruines parsèment les plaines et, au loin, les collines dominant Tbilisi. La capitale, qui concentre près d’un tiers de la population, est elle aussi touchée par la vétusté de ses infrastructures. Étonnamment charmante, Tbilisi sert également de base pour des excursions dans les superbes décors caucasiens. Les effets de la chute du bloc soviétique y sont toujours palpables et, si Staline est né à quelques heures de là, impossible de s’y méprendre : la Géorgie est aujourd’hui résolument pro-européenne.

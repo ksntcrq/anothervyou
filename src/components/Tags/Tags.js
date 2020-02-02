@@ -16,7 +16,7 @@ function Tags({ locale, tags = [] }) {
             <ul className={styles.list}>
                 {tags.map(tag => {
                     const translatedTag = intl.formatMessage({
-                        id: `post_tag_${tag}`,
+                        id: tag,
                     });
                     return (
                         <li key={tag} className={styles.item}>

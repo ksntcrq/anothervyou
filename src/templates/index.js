@@ -36,6 +36,7 @@ export default ({
                     <li key={node.id}>
                         <ArticlePreview
                             title={node.frontmatter.title}
+                            categories={node.frontmatter.categories}
                             slug={node.fields.slug}
                             excerpt={node.excerpt}
                         />
@@ -71,6 +72,10 @@ export const query = graphql`
                     excerpt
                     frontmatter {
                         title
+                        categories {
+                            destination
+                            category
+                        }
                     }
                 }
             }

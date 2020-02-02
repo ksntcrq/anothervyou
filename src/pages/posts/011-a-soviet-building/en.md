@@ -1,6 +1,9 @@
 ---
 title: "A soviet building"
-date: "2019-12-08"
+date: "2019-12-07"
+categories:
+  destination: "georgia"
+  category: "photo_series"
 template: "post"
 ---
 

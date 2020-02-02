@@ -2,6 +2,9 @@
 title: "Abandoned Georgia"
 date: "2019-12-08"
 tags: ["georgia", "roadtrip"]
+categories:
+  destination: "georgia"
+  category: "travelogues"
 template: "post"
 ---
 From the air, the Georgian countryside seems desolated, abandoned. Ruins dot the plain and, far away, the hills ruling Tbilisi. The capital, where about a third of the population lives, has some of its infrastructures dilapidated too. Surprisingly charming, Tbilisi is also the base to go and visit the superb Caucasian landscapes. The effects of the fall of the Soviet block are still palpable and, if Stalin was born a few hours away, it is not possible to be mistaken: today, Georgia is absolutely pro-European.

@@ -1,6 +1,9 @@
 ---
 title: "The other side of North Korea"
 date: "2018-12-19"
+categories:
+  destination: "north_korea"
+  category: "reports"
 template: "post"
 ---
 

@@ -1,6 +1,9 @@
 ---
 title: "From Cuban roads"
 date: "2018-07-16"
+categories:
+  destination: "cuba"
+  category: "reports"
 template: "post"
 ---
 

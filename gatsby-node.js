@@ -85,7 +85,7 @@ exports.createPages = async ({ actions, graphql }) => {
         tag.edges.forEach(({ node }) => {
             const langKey = node.fields.langKey;
             const messages = require(`./src/intl/${langKey}.json`);
-            const translatedTag = messages[`post_tag_${tag.fieldValue}`];
+            const translatedTag = messages[tag.fieldValue];
             createPage({
                 path: `/${langKey}/tags/${dashify(translatedTag)}`,
                 component: path.resolve("./src/templates/tags.js"),

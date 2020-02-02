@@ -13,7 +13,7 @@ export default ({
 }) => {
     const intl = useIntl();
     const translatedTag = intl.formatMessage({
-        id: `post_tag_${tag}`,
+        id: tag,
     });
     return (
         <Layout locale={locale}>
