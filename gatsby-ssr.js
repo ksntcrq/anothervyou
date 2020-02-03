@@ -1,6 +1,7 @@
 import "./src/styles/styles.scss";
 import { IntlProvider } from "react-intl";
 import React from "react";
+import Analytics from "./src/components/Analytics/Analytics";
 
 export const wrapPageElement = ({
     element,
@@ -10,8 +11,11 @@ export const wrapPageElement = ({
 }) => {
     const messages = require(`./src/intl/${locale}.json`);
     return (
-        <IntlProvider locale={locale} messages={messages}>
-            {element}
-        </IntlProvider>
+        <>
+            <IntlProvider locale={locale} messages={messages}>
+                {element}
+            </IntlProvider>
+            <Analytics />
+        </>
     );
 };
