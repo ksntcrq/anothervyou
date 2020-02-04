@@ -3,7 +3,7 @@ title: "Une cité soviétique"
 date: "2019-12-07"
 categories:
   destination: "georgia"
-  category: "photo-series"
+  category: "phoso_series"
 template: "post"
 ---
 
