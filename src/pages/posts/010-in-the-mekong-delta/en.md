@@ -89,6 +89,8 @@ Back to Hô Chi Minh City, public transport are cheap - 20 cents for a ride - an
 
 ![A classic traffic scene of Ho Chi Minh City.](../../../images/vietnam/ho-chi-minh-scooters.jpg "Traffic")
 
+-----
+
 (1) Jianzi is a Chinese game in which players have to pass a kind of shuttlecock using their feet.
 
 (2) See when [this photo](https://www.google.com/maps/uv?hl=en&pb=!1s0x31a089cc737e4f4b%3A0x7afba24e1d796b9c!2m22!2m2!1i80!2i80!3m1!2i20!16m16!1b1!2m2!1m1!1e1!2m2!1m1!1e3!2m2!1m1!1e5!2m2!1m1!1e4!2m2!1m1!1e6!3m1!7e115!4shttps%3A%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipPiHg1T5LnKYnv5F9WXxFbDq5YBR3OWtnsKFlDQ%3Dw482-h320-k-no!5zdOG7i25oIHRo4bqldCBow7JhIG5naGnDqm0gY2FuIHRobyAtIEdvb2dsZSBTZWFyY2g!15sCAQ&imagekey=!1e10!2sAF1QipOGrfYWKJCMOWzQWHX_lBCUkorshaA1NyTOmbDg&sa=X&ved=2ahUKEwimnIbI4eXgAhXHKlAKHRlrBgIQoiowE3oECAYQBg) was shared, as well as [this video](https://www.youtube.com/watch?v=Olpj9_PIFqs) to see how the construction went a year later.

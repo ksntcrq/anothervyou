@@ -37,6 +37,7 @@ export default ({
                         <ArticlePreview
                             title={node.frontmatter.title}
                             categories={node.frontmatter.categories}
+                            date={node.frontmatter.date}
                             slug={node.fields.slug}
                             excerpt={node.excerpt}
                         />
@@ -72,6 +73,7 @@ export const query = graphql`
                     excerpt
                     frontmatter {
                         title
+                        date
                         categories {
                             destination
                             category

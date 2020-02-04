@@ -1,3 +1,19 @@
+@import '../../styles/modules/all';
+
+.article {
+    margin-bottom: $spacing * 3;
+}
+
+.title {
+    margin-bottom: 0;
+}
+
+.text {
+    margin-top: $spacing;
+    padding-left: $spacing;
+    border-left: 2px solid $text-color;
+}
+
 .excerpt,
 .read-more {
     display: inline;
@@ -9,7 +25,6 @@
     text-decoration: underline;
 }
 
-.footer {
+.metadata {
     font-style: italic;
-    margin-top: 10px;
 }

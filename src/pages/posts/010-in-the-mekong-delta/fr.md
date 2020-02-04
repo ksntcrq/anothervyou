@@ -89,6 +89,8 @@ De retour à Hô Chi Minh Ville, les transports en commun à vingt centimes élo
 
 ![Une scène de trafic routier classique à Ho Chi Minh Ville.](../../../images/vietnam/ho-chi-minh-scooters.jpg "Trafic routier")
 
+-----
+
 (1) Voir la date de partage de [cette photo](https://www.google.com/maps/uv?hl=en&pb=!1s0x31a089cc737e4f4b%3A0x7afba24e1d796b9c!2m22!2m2!1i80!2i80!3m1!2i20!16m16!1b1!2m2!1m1!1e1!2m2!1m1!1e3!2m2!1m1!1e5!2m2!1m1!1e4!2m2!1m1!1e6!3m1!7e115!4shttps%3A%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipPiHg1T5LnKYnv5F9WXxFbDq5YBR3OWtnsKFlDQ%3Dw482-h320-k-no!5st%E1%BB%8Bnh%20th%E1%BA%A5t%20h%C3%B2a%20nghi%C3%AAm%20can%20tho%20-%20Google%20Search&imagekey=!1e10!2sAF1QipOGrfYWKJCMOWzQWHX_lBCUkorshaA1NyTOmbDg&sa=X&ved=2ahUKEwimnIbI4eXgAhXHKlAKHRlrBgIQoiowE3oECAYQBg), ainsi que [cette vidéo](https://www.youtube.com/watch?v=Olpj9_PIFqs) pour apprécier la progression des travaux un an plus tard.
 
 (2) https://www.lemonde.fr/climat/article/2019/01/03/des-dizaines-de-milliers-de-touristes-fuient-des-iles-de-thailande-a-l-approche-de-la-tempete-pabuk\_5404851\_1652612.html
