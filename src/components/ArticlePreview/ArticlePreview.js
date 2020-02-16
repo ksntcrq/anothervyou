@@ -10,7 +10,7 @@ function ArticlePreview({ title, categories = {}, slug, excerpt, date }) {
         <article className={styles.article}>
             <header>
                 <h2 className={styles.title}>
-                    <Link to={`${slug}`}>{title}</Link>
+                    <Link to={slug}>{title}</Link>
                 </h2>
                 <div className={styles.metadata}>
                     <time>

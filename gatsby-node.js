@@ -30,8 +30,8 @@ exports.createPages = async ({ actions, graphql }) => {
     const { createPage, createRedirect } = actions;
 
     createRedirect({
-        fromPath: '/',
-        toPath: '/fr',
+        fromPath: "/",
+        toPath: "/fr",
     });
 
     const result = await graphql(`
@@ -50,6 +50,7 @@ exports.createPages = async ({ actions, graphql }) => {
                         frontmatter {
                             tags
                             template
+                            date
                         }
                     }
                 }
@@ -78,6 +79,7 @@ exports.createPages = async ({ actions, graphql }) => {
                 slug: node.fields.slug,
                 locale: node.fields.langKey,
                 namespace: node.fields.namespace,
+                date: node.frontmatter.date,
             },
         });
     });

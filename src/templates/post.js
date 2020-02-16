@@ -6,10 +6,13 @@ import Tags from "../components/Tags/Tags";
 import styles from "./templates.module.scss";
 import SEO from "../components/SEO/SEO";
 import { formatTranslations } from "../utils/format";
+import PrevNextArticle from "../components/PrevNextArticle/PrevNextArticle";
 
 export default ({
     data: {
         post,
+        prev,
+        next,
         postTranslationsMarkdownRemark,
         site: { siteMetadata },
     },
@@ -30,7 +33,7 @@ export default ({
                 langKey={post.fields.langKey}
                 pageTranslations={postTranslations}
             />
-            <article>
+            <article className={styles.article}>
                 <header className={styles.header}>
                     <h1 className={styles.title}>{post.frontmatter.title}</h1>
                     <time>
@@ -47,12 +50,13 @@ export default ({
                     <Tags locale={locale} tags={post.frontmatter.tags} />
                 )}
             </article>
+            <PrevNextArticle prev={prev} next={next} />
         </Layout>
     );
 };
 
 export const query = graphql`
-    query($slug: String!, $namespace: String!, $locale: String!) {
+    query($slug: String!, $namespace: String!, $locale: String!, $date: Date!) {
         site {
             siteMetadata {
                 author
@@ -70,11 +74,31 @@ export const query = graphql`
                 tags
             }
         }
+        prev: markdownRemark(
+            frontmatter: { date: { lte: $date } }
+            fields: { langKey: { eq: $locale }, slug: { ne: $slug } }
+        ) {
+            frontmatter {
+                title
+            }
+            fields {
+                slug
+            }
+        }
+        next: markdownRemark(
+            frontmatter: { date: { gte: $date } }
+            fields: { langKey: { eq: $locale }, slug: { ne: $slug } }
+        ) {
+            frontmatter {
+                title
+            }
+            fields {
+                slug
+            }
+        }
         postTranslationsMarkdownRemark: allMarkdownRemark(
             filter: {
-                frontmatter: {
-                    draft: { ne: true }
-                }
+                frontmatter: { draft: { ne: true } }
                 fields: {
                     namespace: { eq: $namespace }
                     langKey: { ne: $locale }

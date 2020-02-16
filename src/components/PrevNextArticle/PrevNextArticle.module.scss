@@ -1,0 +1,22 @@
+@import '../../styles/modules/all';
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.prev-wrapper {
+    flex-grow: 1;
+    margin-bottom: $spacing;
+    margin-right: $spacing;
+}
+
+.next-wrapper {
+    margin-bottom: $spacing;
+    text-align: right;
+}
+
+.title {
+    font-weight: bold;
+}
