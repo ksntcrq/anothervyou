@@ -23,7 +23,7 @@ function PrevNextArticle({ prev, next }) {
                 {next && (
                     <>
                         <FormattedMessage id="next_article" />
-                      <div className={styles.title}>
+                        <div className={styles.title}>
                             <Link to={next.fields.slug}>
                                 {next.frontmatter.title}
                             </Link>

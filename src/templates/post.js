@@ -50,7 +50,7 @@ export default ({
                     <Tags locale={locale} tags={post.frontmatter.tags} />
                 )}
             </article>
-            <PrevNextArticle prev={prev} next={next} />
+            <PrevNextArticle prev={prev.nodes[0]} next={next.nodes[0]} />
         </Layout>
     );
 };
@@ -74,26 +74,38 @@ export const query = graphql`
                 tags
             }
         }
-        prev: markdownRemark(
-            frontmatter: { date: { lte: $date } }
-            fields: { langKey: { eq: $locale }, slug: { ne: $slug } }
-        ) {
-            frontmatter {
-                title
+        prev: allMarkdownRemark(
+            filter: {
+                frontmatter: { date: { lte: $date }, draft: { ne: true } }
+                fields: { langKey: { eq: $locale }, slug: { ne: $slug } }
             }
-            fields {
-                slug
+            limit: 1
+            sort: { fields: frontmatter___date, order: DESC }
+        ) {
+            nodes {
+                fields {
+                    slug
+                }
+                frontmatter {
+                    title
+                }
             }
         }
-        next: markdownRemark(
-            frontmatter: { date: { gte: $date } }
-            fields: { langKey: { eq: $locale }, slug: { ne: $slug } }
-        ) {
-            frontmatter {
-                title
+        next: allMarkdownRemark(
+            filter: {
+                frontmatter: { date: { gte: $date }, draft: { ne: true } }
+                fields: { langKey: { eq: $locale }, slug: { ne: $slug } }
             }
-            fields {
-                slug
+            limit: 1
+            sort: { fields: frontmatter___date, order: ASC }
+        ) {
+            nodes {
+                fields {
+                    slug
+                }
+                frontmatter {
+                    title
+                }
             }
         }
         postTranslationsMarkdownRemark: allMarkdownRemark(
