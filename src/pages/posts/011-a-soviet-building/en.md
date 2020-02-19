@@ -7,7 +7,7 @@ categories:
 template: "post"
 ---
 
-These pictures were shot in the Borjomi gorge (Georgia), in May 2019. Their story is told in the article named "[Abandoned Georgia](https://anothervyou.world/en/abandoned-georgia/)".
+These pictures were shot in the Borjomi gorge (Georgia), in May 2019. Their story is told in the article named "[Abandoned Georgia](/en/abandoned-georgia)".
 
 ![A soviet building, in the Borjomi gorge.](../../../images/georgia/borjomi-soviet-building.jpg "A soviet building")
 

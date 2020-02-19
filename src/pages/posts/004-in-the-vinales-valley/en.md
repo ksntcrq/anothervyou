@@ -7,7 +7,15 @@ categories:
 template: "post"
 ---
 
-This morning, despite the early hour, the blazing sun is tougher than in [Havana](https://anothervyou.world/en/havana-rhythms-and-people/). The gulf of Mexico is further from Viñales, and the surrounding karstic relief prevent the wind from reaching us. The valley also draws the landscape so many travellers come for. On our side, our trip from the capital was arranged by the landlord there. The day before, a _collectivo _(collective taxi) came in the beginning of the day and let us in the hands of our new family for two nights. We could otherwise have taken a bus from the national company Viazul, but it would have been as expensive and longer.
+This morning, despite the early hour, the blazing sun is tougher than 
+in [Havana](/en/havana---rhythms-and-people). The gulf 
+of Mexico is further from Viñales, and the surrounding karstic relief prevent 
+the wind from reaching us. The valley also draws the landscape so many 
+travellers come for. On our side, our trip from the capital was arranged by the 
+landlord there. The day before, a _collectivo_ (collective taxi) came in the 
+beginning of the day and let us in the hands of our new family for two nights. 
+We could otherwise have taken a bus from the national company Viazul, but it 
+would have been as expensive and longer.
 
 ![Light sneaking through the clouds.](../../../images/cuba/vinales-field.jpg "Light sneaking through the clouds")
 

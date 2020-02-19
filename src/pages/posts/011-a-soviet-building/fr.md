@@ -7,7 +7,7 @@ categories:
 template: "post"
 ---
 
-Ces clichés ont été pris dans la vallée de Borjomi (Géorgie), en mai 2019. Leur histoire est contée dans l'article intitulé "[En Géorgie abandonnée](https://anothervyou.world/fr/en-georgie-abandonnee/)".
+Ces clichés ont été pris dans la vallée de Borjomi (Géorgie), en mai 2019. Leur histoire est contée dans l'article intitulé "[En Géorgie abandonnée](/fr/en-géorgie-abandonnée)".
 
 ![Une cité soviétique, dans la vallée de Borjomi.](../../../images/georgia/borjomi-soviet-building.jpg "Une cité soviétique")
 

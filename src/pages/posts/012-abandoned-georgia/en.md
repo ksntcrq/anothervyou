@@ -45,7 +45,7 @@ Between Stepantsminda and the Russian border, separated by a dozen kilometres, a
 
 ![Tsdo, a small town perched in the mountain, with the last rays of the sun reflecting on the background mountains.](../../../images/georgia/tsdo.jpg "Tsdo")
 
-The old soviet building, nested in the Borjomi valley, in the very centre of the country, probably accommodates more inhabitants than the entire Tsdo. The city is known for its sparkling mineral water and the impeccable park surrounding its source. This is the reason why obsolete soviet sanatoriums are still standing in the neighbouring cities. The block of flats, darkened by the smoke escaping its balconies, reign over one of them. Its mosaics are wonderfully well kept; the apartments, however, a bit less. If some floors are deserted, some others do are still used: from the fifth storey, a really old woman, who used to live in Abkhazia when USSR was still standing, asks us to come over.
+The [old soviet building](/en/a-soviet-building), nested in the Borjomi valley, in the very centre of the country, probably accommodates more inhabitants than the entire Tsdo. The city is known for its sparkling mineral water and the impeccable park surrounding its source. This is the reason why obsolete soviet sanatoriums are still standing in the neighbouring cities. The block of flats, darkened by the smoke escaping its balconies, reign over one of them. Its mosaics are wonderfully well kept; the apartments, however, a bit less. If some floors are deserted, some others do are still used: from the fifth storey, a really old woman, who used to live in Abkhazia when USSR was still standing, asks us to come over.
 
 ![Soviet building in the Borjomi gorge.](../../../images/georgia/borjomi-soviet-building.jpg "Soviet building")
 

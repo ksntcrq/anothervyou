@@ -30,14 +30,14 @@ function ArticlePreview({ title, categories = {}, slug, excerpt, date }) {
                                 .join(", ")}
                 </div>
             </header>
-            <div className={styles.text}>
-                <p className={styles.excerpt}>{excerpt}</p>
+            <p className={styles.text}>
+                {excerpt}
                 <span className={styles.readMore}>
                     <Link to={`${slug}`}>
                         <FormattedMessage id="continue_reading" />
                     </Link>
                 </span>
-            </div>
+            </p>
         </article>
     );
 }

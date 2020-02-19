@@ -7,7 +7,18 @@ categories:
 template: "post"
 ---
 
-Ce matin, malgré l'heure, l'intransigeance du soleil est encore plus frappante qu'à [La Havane](https://anothervyou.world/fr/la-havane-rythmees-rencontres/). Le golfe du Mexique se situe plus loin de Viñales, et le relief karstique alentour empêche le vent de progresser jusqu'à nous. La vallée dessine également le paysage pour lequel tant de voyageurs prennent la route jusqu'ici et y sillonnent les chemins de terre à pied ou à cheval. Pour notre part, le trajet depuis la capitale a été organisé, comme plus tard au cours du voyage, par le propriétaire qui nous accueillait alors. La veille, un _collectivo _(taxi collectif) est effectivement passé en début de journée et nous a laissé, à destination, entre les mains de notre nouvelle famille pour deux nuits. Prendre un des bus de la compagnie nationale Viazul aurait été une autre possibilité mais, pour ce trajet, elle est aussi coûteuse et bien plus longue.
+Ce matin, malgré l'heure, l'intransigeance du soleil est encore plus frappante 
+qu'à [La Havane](/fr/la-havane---rythmées-rencontres). 
+Le golfe du Mexique se situe plus loin de Viñales, et le relief karstique 
+alentour empêche le vent de progresser jusqu'à nous. La vallée dessine également 
+le paysage pour lequel tant de voyageurs prennent la route jusqu'ici et y 
+sillonnent les chemins de terre à pied ou à cheval. Pour notre part, le trajet 
+depuis la capitale a été organisé, comme plus tard au cours du voyage, par le 
+propriétaire qui nous accueillait alors. La veille, un _collectivo_ (taxi 
+collectif) est effectivement passé en début de journée et nous a laissé, à 
+destination, entre les mains de notre nouvelle famille pour deux nuits. Prendre 
+un des bus de la compagnie nationale Viazul aurait été une autre possibilité 
+mais, pour ce trajet, elle est aussi coûteuse et bien plus longue.
 
 ![Lumière perçant les nuages.](../../../images/cuba/vinales-field.jpg "Lumière perçant les nuages")
 

@@ -77,13 +77,13 @@ Ce tableau dystopique vaut cependant pour une minorité de plages, beaucoup éta
 
 Mũi Né propose de spectaculaires dunes de sable. La couleur rouge de l'une (_đ__ồi cát hồng_) est réchauffée par le coucher du soleil ; la couleur blanche de l'autre (_đ__ồi cát trắng_) réveille les yeux endormis lorsqu'il sort de son lit. En revenant d'étendue vallonée de sable blanc, des complexes hôteliers inachevés et abandonnés jalonnent la route. Un peu après le dernier d'entre eux, la prophétie se réalise : comme raconté ci et là, il va nous falloir corrompre la police.
 
-[![Les dunes de sable rouge de Mui Ne, sous un chaud soleil couchant.](../../../images/vietnam/mui-ne-red-dunes.jpg "Les dunes de sable rouge")
+![Les dunes de sable rouge de Mui Ne, sous un chaud soleil couchant.](../../../images/vietnam/mui-ne-red-dunes.jpg "Les dunes de sable rouge")
 
 Conduire un scooter sans permis international est toléré sur tout le territoire, sauf ici. Le policier nous emmène derrière sa voiture, de façon à ce que nous soyons cachés. Nous nous asseyons sur des chaises en plastique, basses à tel point qu'elles paraissent être pour enfant, autour d'une table aux caractéristiques similaires - ce type de mobilier est très répandu dans les cafés et restaurants. Il nous montre un vieux classeur aux feuilles plastifiées écornées sur lesquelles sont imprimées des extraits - véritables ou non - de loi, traduits en langues étrangères : notre scooter doit être immobilisé une semaine, et nous devons payer 1 200 000 dongs (46 euros) sur le champ.
 
 En prévision de cette situation, nous avions préparé un portefeuille avec seulement 100 000 dongs (4 euros), que nous montrons à l'officier. Insuffisant à ses yeux, il nous enjoint de trouver le distributeur le plus proche à ses côtés. Arrivé à notre deux roues, je sors du coffre 700 000 dongs (27 euros) supplémentaires. Il me fait signe de cacher l'argent, se gare, descend de sa moto et enlève son casque. Je laisse une partie de ce butin dans le sac avant de le rejoindre à nouveau derrière la voiture, garée sur le bas-côté. Après avoir reçu environ 500 000 dongs (20 euros), le policier nous serre la main, un grand sourire au visage, nous prévient de dire que nous l'avons déjà payé lui si nous nous faisons arrêter à nouveau, puis nous souhaite une excellente fin de voyage !
 
-[![Les dunes de sable blanc de Mui Ne.](../../../images/vietnam/mui-ne-white-dunes.jpg "Les dunes de sable blanc")
+![Les dunes de sable blanc de Mui Ne.](../../../images/vietnam/mui-ne-white-dunes.jpg "Les dunes de sable blanc")
 
 De retour à Hô Chi Minh Ville, les transports en commun à vingt centimes éloignent la nécessité de louer un véhicule à moteur. Ils sont un moyen efficace d'effectuer de longues distances dans cette métropole atypique, où les coiffeurs exercent à même la rue, où les ouvriers font la sieste dans des hamacs - véritable sport national - qu'ils accrochent à leurs camions de chantier, où la pétanque et le billard français témoignent d'un long passé colonial. Le traffic y est de toute façon bien trop extrême...
 

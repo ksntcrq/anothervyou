@@ -7,7 +7,14 @@ categories:
 template: "post"
 ---
 
-If so many stories emerge from [Cuban roads](https://anothervyou.world/en/from-cuban-roads/), the reason is certainly that we used them to go through the whole country. After [hours of walking](https://anothervyou.world/en/in-the-vinales-valley/) and some [paradisiac beaches](https://anothervyou.world/en/womens-day-in-the-bay-of-pigs/), we are heading South. Before Santiago de Cuba, we are going to stop in Cienfuegos, El Nicho, Trinidad and Camagüey. The mercury rises as our latitude declines; propagandist signs, in place of the advertisements typical of our capitalist societies, grow in frequency; and the Spanish accent becomes more and more difficult to understand.
+If so many stories emerge from [Cuban roads](/en/from-cuban-roads), the reason
+os certainly that we used them to go through the whole country. After 
+[hours of walking](/en/in-the-viñales-valley) and some 
+[paradisiac beaches](/en/women-s-day-in-the-bay-of-pigs), we are heading South. 
+Before Santiago de Cuba, we are going to stop in Cienfuegos, El Nicho, Trinidad 
+and Camagüey. The mercury rises as our latitude declines; propagandist signs, 
+in place of the advertisements typical of our capitalist societies, grow in 
+frequency; and the Spanish accent becomes more and more difficult to understand.
 
 ## Cienfuegos
 
@@ -26,7 +33,7 @@ Walls of the city's streets are also full of revolutionary paintings, and a scho
 
 ![A monument, in the garden of a museum commemorating a battle which took place in Cienfuegos.](../../../images/cuba/cienfuegos-museum.jpg "A memorial")
 
-Just like everywhere, state-run shops sell food products. They are rationed and purchases recorded. For example, some of the shops provide milk and rice while others, _carnicerías _(bouchers), sell meat - pork, most of the time. Beef meat is very scarce in Cuba: a law from the Special Period, in the last decade of the last century, punishes the murder of these animals of jail without a specific permit. One of the main ideas was to slow down cattle breeding, as it consumes a lot of resources, in the middle of a starvation era.
+Just like everywhere, state-run shops sell food products. They are rationed and purchases recorded. For example, some of the shops provide milk and rice while others, _carnicerías_ (bouchers), sell meat - pork, most of the time. Beef meat is very scarce in Cuba: a law from the Special Period, in the last decade of the last century, punishes the murder of these animals of jail without a specific permit. One of the main ideas was to slow down cattle breeding, as it consumes a lot of resources, in the middle of a starvation era.
 
 ![One of the bouchers of Cienfuegos.](../../../images/cuba/cienfuegos-boucher.jpg "A boucher")
 
