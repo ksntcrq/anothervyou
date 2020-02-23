@@ -5,6 +5,7 @@ categories:
   destination: "georgia"
   category: "photo_series"
 template: "post"
+imageName: "borjomi-soviet-building"
 ---
 
 These pictures were shot in the Borjomi gorge (Georgia), in May 2019. Their story is told in the article named "[Abandoned Georgia](/en/abandoned-georgia)".

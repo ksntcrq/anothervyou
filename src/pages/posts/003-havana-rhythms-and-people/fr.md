@@ -5,6 +5,7 @@ categories:
   destination: "cuba"
   category: "travelogues"
 template: "post"
+imageName: "havana-camel"
 ---
 
 Courir à La Havane n'est définitivement pas aussi ressourçant qu'à Amsterdam. La pratique permet, tout au plus, de découvrir la ville sous un autre angle. Les vieilles voitures américaines peuplent encore les rues et noircissent l'air de leur passage, ajoutant à la chaleur matinale une pollution à laquelle personne ne peut échapper quand les poumons recherchent un peu d'oxygène. Heureusement, après la percée d'une Chevrolet ou d'une Pontiac qui roule depuis la moitié du vingtième siècle, la fumée opaque se dissout rapidement et la prochaine voiture n'apparaît que quelques dizaines de secondes voire quelques minutes plus tard. Les petites rues de _Centro Habana_ (La Havane Centre), comme les grands axes reliant les villes cubaines, sont en effet peu fréquentées par les automobilistes - moins de 10% de la population possède une voiture. Et c'est ici que j'ai décidé, dès le lendemain de mon arrivée, de courir un peu.

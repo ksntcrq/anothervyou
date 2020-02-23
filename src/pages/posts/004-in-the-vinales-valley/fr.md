@@ -5,6 +5,7 @@ categories:
   destination: "cuba"
   category: "travelogues"
 template: "post"
+imageName: "vinales-field"
 ---
 
 Ce matin, malgré l'heure, l'intransigeance du soleil est encore plus frappante 
@@ -38,4 +39,4 @@ Ironiquement, lui-même était professeur par le passé. Avec du recul, son exce
 
 Sur le chemin du retour, des maisons arborent les peintures des Comités de Défense de la Révolution (CDR). Ces organismes d'État, parfois controversés et accusés d'actions idéologiquement coercitives, s'occupent essentiellement d'aspects pratiques de la vie quotidienne de quartier - entretien des routes, délivrance de médicaments, etc. Aux côtés de la commémoration d'un anniversaire passé de la révolution, nous pouvons lire : _"Le quartier nous unit"_. Les rencontres d'aujourd'hui montrent finalement que les divergences d'opinion existent malgré l'unité affichée.
 
-![Un graffiti en l'honneur des Comités de Défense de la Révolution.](../../../images/cuba/vinales-field-2.jpg "Un graffiti")
+![Un graffiti en l'honneur des Comités de Défense de la Révolution.](../../../images/cuba/vinales-graph.jpg "Un graffiti")

@@ -5,6 +5,7 @@ categories:
   destination: "cuba"
   category: "travelogues"
 template: "post"
+imageName: "playa-giron"
 ---
 
 Après avoir foulé le bitume brûlant de [La Havane](/fr/la-havane---rythmées-rencontres) et divagué dans les reliefs étouffants de [Viñales](/fr/dans-la-vallée-de-viñales), la même voiture qui nous a promenés entre les deux villes nous emmène maintenant vers les plages de la baie des Cochons, plus au Sud. C'est sur ce sable fin, et après avoir survolé de superbes récifs coralliens, que des centaines de militaires états-uniens ont lourdement échoué lorsqu'ils ont tenté d'envahir Cuba en 1961. Au-delà du tournant historique marqué par ce camouflet, la zone est particulièrement fameuse pour ses fonds marins à couper le souffle et très faciles d'accès. L'occasion de pénétrer dans un monde coloré - et dangereusement bondé d'oursins.

@@ -5,6 +5,7 @@ categories:
   destination: "cuba"
   category: "reports"
 template: "post"
+imageName: "cienfuegos-phone-street"
 ---
 
 Les _casas particulares_ (sortes de maisons d'hôtes cubaines) affirment souvent disposer d'un accès à Internet. Dans la plupart des cas, il n'en est pourtant rien. L'espoir le moins fantaisiste est, il me semble, d'être en capacité de se connecter depuis la casa via l'une des bornes Wi-Fi qu'a placées l'entreprise gouvernementale de télécommunications Etecsa - qu'il s'agisse d'un relai ou bel et bien d'une de leurs bornes. Même s'il est techniquement possible de souscrire à une box, je n'en ai vu dans aucun logement au cours des trois semaines passées à Cuba. Pour communiquer avec l'extérieur du pays via Internet, il faut inévitablement trouver l'un des - ou, comme à Playa Larga ou Baracoa, le seul et unique - parcs dans lequel se trouvent les boîtiers permettant de mettre en pause l'immersion dans la vie cubaine. L'immersion subsiste cependant jusqu'aux tous derniers instants : selon la fréquentation, il faut parfois faire preuve de beaucoup d'abnégation pour se connecter, en usant d'une patience régulièrement mise à rude épreuve dans le pays.

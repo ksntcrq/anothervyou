@@ -5,6 +5,7 @@ categories:
   destination: "cuba"
   category: "travelogues"
 template: "post"
+imageName: "trinidad-school"
 ---
 
 Si [des routes cubaines](/fr/des-routes-cubaines/) fleurissent tant d'anecdotes,
@@ -35,9 +36,9 @@ Les murs des rues de la ville arborent eux-aussi des peintures révolutionnaires
 
 ![Un monument, dans le jardin d'un musée commémorant une bataille ayant pris place à Cienfuegos.](../../../images/cuba/cienfuegos-museum.jpg "Un mémorial")
 
-Comme partout, des magasins étatiques spécialisés s'occupent de vendre les produits alimentaires. La nourriture est rationnée et les achats consignés. Certains commerces fournissent par exemple du lait et du riz pendant que d'autres, les _carnicerías _(boucheries), délivrent de la viande - de porc, essentiellement. La viande de boeuf se fait très rare à Cuba : datant de la Période spéciale dans la dernière décennie du siècle dernier, une loi sanctionne de prison le meurtre de ces animaux sans l'obtention préalable d'un permis spécifique. L'une des idées fondatrices était de freiner l'élevage du bétail, vendus à prix d'or mais très coûteux en matière de ressources, au milieu d'une époque justement marquée par le manque de nourriture.
+Comme partout, des magasins étatiques spécialisés s'occupent de vendre les produits alimentaires. La nourriture est rationnée et les achats consignés. Certains commerces fournissent par exemple du lait et du riz pendant que d'autres, les _carnicerías_ (boucheries), délivrent de la viande - de porc, essentiellement. La viande de boeuf se fait très rare à Cuba : datant de la Période spéciale dans la dernière décennie du siècle dernier, une loi sanctionne de prison le meurtre de ces animaux sans l'obtention préalable d'un permis spécifique. L'une des idées fondatrices était de freiner l'élevage du bétail, vendus à prix d'or mais très coûteux en matière de ressources, au milieu d'une époque justement marquée par le manque de nourriture.
 
-![L'une des boucherie de Cienfuegos.](../../../images/cuba/cienfuegos-boucher.jpg "Une boucherie")
+![L'une des boucherie de Cienfuegos.](../../../images/cuba/cienfuegos-sunset.jpg "Une boucherie")
 
 A ces commerces de proximité s'ajoutent des vendeurs ambulants, toujours à bicyclette, sinuant sur les chemins troués des villes. S'ils vendent bien souvent des fruits, des légumes ou des fleurs, ils savent aussi se montrer innovants. Alors que nous regardons le soleil se coucher depuis _Punta Gorda_, l'un d'entre eux sort de son bac une bouteille remplie aux trois quarts. Il donne un gobelet à chacun de ses deux nouveaux clients, assis face à face de part et d'autre d'une table. Il déverse finalement dans les deux verres une montagne d'huîtres, probablement mortes depuis plusieurs heures. Nous préférons quant à nous continuer à siroter notre mojito.
 

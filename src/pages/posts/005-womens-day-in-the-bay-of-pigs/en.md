@@ -5,6 +5,7 @@ categories:
   destination: "cuba"
   category: "travelogues"
 template: "post"
+imageName: "playa-giron"
 ---
 
 After we walked on the burning asphalt of [Havana](/en/havana---rhythms-and-people) and wandered through the sultry reliefs of [Viñales](/en/in-the-viñales-valley), the same car that took us between these two cities brings us to the beaches of the Bay of Pigs, a bit more South. It is on this fine sand that hundreds of US soldiers heavily failed when they tried to invade Cuba in 1961. The historic turning point is not the only reason the area is well known: its breathtaking seabed is also very easily accessible. This is the opportunity to dive into a colourful world - dangerously full of sea urchins.

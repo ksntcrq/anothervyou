@@ -5,6 +5,7 @@ categories:
   destination: "cuba"
   category: "travelogues"
 template: "post"
+imageName: "vinales-field"
 ---
 
 This morning, despite the early hour, the blazing sun is tougher than 

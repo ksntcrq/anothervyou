@@ -5,6 +5,7 @@ categories:
   destination: "cuba"
   category: "reports"
 template: "post"
+imageName: "trinidad-car-repair"
 ---
 
 Even if we are tacking like a spaceship dodging obstacles in a video game, the bumpy roads of the Caribbean island are less dangerous during the day. At night, the random dance of horse-drawn carriages - although they are forbidden to ride from dusk to dawn -, pedestrians and bikes going out of the darkness at the very last moment makes driving particularly hard. The only lamp is high in the sky and sometimes hidden behind the clouds, and the old cars' headlights struggle to show the way otherwise. After explaining why he drives by day and not by night, the man who brings us to Cienfuegos takes his phone to show me something.

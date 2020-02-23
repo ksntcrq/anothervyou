@@ -5,6 +5,7 @@ categories:
   destination: "vietnam"
   category: "travelogues"
 template: "post"
+imageName: "ho-chi-minh-temple"
 ---
 
 Deux jours dans la frénésie de Hô Chi Minh Ville permettent d'en cerner les caractéristiques principales. Précédemment nommée Saïgon, elle est rebaptisée en 1975 en hommage au leader indépendantiste victorieux trente ans plus tôt, dont le pseudonyme signifie "porteur de lumière". Sur la route et dans les rues, l'ambiance y est tout à fait chaotique : les huit millions de scooters envahissent jusqu'aux trottoirs, pourtant régulièrement barrés de blocs de bétons. Se nicher dans un bus donne l'impression de naviguer dans un océan de deux roues frôlant dangereusement le paquebot qui fend la houle. Et l'océan n'est certainement pas d'eau mais de lave, tant le soleil brûle lorsqu'il perce les nuages. Peut-être, alors, est-ce pour échapper à son destin qu'il ne marque pas d'arrêt complet quand de nouveaux passagers grimpent à bord ou que d'autres repartent en eaux troubles. La folie de cette circulation hallucinée est exacerbée dans la ville la plus peuplée du Vietnam - mais le trafic en zones rurales n'a rien à lui envier.

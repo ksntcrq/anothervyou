@@ -5,6 +5,7 @@ categories:
   destination: "cuba"
   category: "reports"
 template: "post"
+imageName: "cienfuegos-phone-street"
 ---
 
 _Casa particulares_ (some kind of bed and breakfast) often state they have access to the Internet. In fact, there is most of the time no such thing as having internet in a _casa_. The only realistic hope is to be able to go online from your homestay is via one of the Wi-Fi hotspots installed by the state-run telecommunication company, Etecsa. Even if it is technically possible to subscribe and have a private box, I haven't seen a single one in three weeks spent in Cuba. No other choice than to find one of the - or, as in Playa Larga and Baracoa, the one and unique - parks where these hotspots are located to communicate with the outside of the country and pause, for a while, the cultural immersion. However, this immersion lasts until the very end: the places are sometimes overcrowded, logging in can take forever and you will need to bring your patience with you.

@@ -11,7 +11,7 @@ export default ({
     location,
     pageTranslations = [],
     tags = [],
-    imageUrl = null,
+    imagePathname = null,
 }) => {
     const { title: siteTitle, author, url: siteUrl } = useSiteMetadata();
     return (
@@ -31,7 +31,9 @@ export default ({
             />
             <meta property="og:title" content={title + " " + author} />
             <meta property="og:description" content={description} />
-            {imageUrl && <meta property="og:image" content={imageUrl} />}
+            {imagePathname && (
+                <meta property="og:image" content={siteUrl + imagePathname} />
+            )}
             <meta property="og:url" content={siteUrl + location.pathname} />
             <meta name="twitter:card" content="summary_large_image" />
             {pageTranslations.map(({ slug, langKey }) => (

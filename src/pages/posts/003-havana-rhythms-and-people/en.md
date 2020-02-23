@@ -5,6 +5,7 @@ categories:
   destination: "cuba"
   category: "travelogues"
 template: "post"
+imageName: "havana-camel"
 ---
 
 Running in Havana is definitely not as peaceful as in Amsterdam. It is just a mean to discover the city in another manner. The old American cars still stand in the streets and darken the air when they pass by, adding an inescapable pollution to the morning heat. Fortunately, after a 50 year old Chevrolet or Pontiac goes down the street, the opaque smoke rapidly vanishes and the next car appears only a few minutes later. The small streets of _Centro Habana_ (Havana Center), as well as the big arterial roads of Cuba, are not used by many motorists - less than 10% of the people have a car. It is here, anyway, that I decided to go for a run the day after I arrived in the island.

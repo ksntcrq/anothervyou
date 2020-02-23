@@ -5,6 +5,7 @@ categories:
   destination: "cuba"
   category: "reports"
 template: "post"
+imageName: "trinidad-car-repair"
 ---
 
 Même si nous louvoyons tel un vaisseau évitant les obstacles dans un jeu vidéo, il faut admettre que les routes cahoteuses de l'île caribéenne sont moins dangereuses la journée. La nuit, la danse aléatoire des calèches - dont l'utilisation des voies est pourtant interdite du coucher au lever du soleil -, des piétons et des vélos qui s'extirpent de la pénombre au tout dernier moment rend la conduite particulièrement difficile. Le seul lampadaire est perché haut dans le ciel et se retrouve parfois caché par les nuages, tandis que les phares des vieilles voitures peinent autrement à montrer la voie. Après m'avoir expliqué pourquoi il roulait de jour plutôt que de nuit, le chauffeur qui nous emmène jusque Cienfuegos sort son téléphone pour me montrer quelque chose.

@@ -51,6 +51,7 @@ exports.createPages = async ({ actions, graphql }) => {
                             tags
                             template
                             date
+                            imageName
                         }
                     }
                 }
@@ -80,6 +81,7 @@ exports.createPages = async ({ actions, graphql }) => {
                 locale: node.fields.langKey,
                 namespace: node.fields.namespace,
                 date: node.frontmatter.date,
+                imageName: node.frontmatter.imageName,
             },
         });
     });

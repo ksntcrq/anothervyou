@@ -5,6 +5,7 @@ categories:
   destination: "cuba"
   category: "travelogues"
 template: "post"
+imageName: "trinidad-school"
 ---
 
 If so many stories emerge from [Cuban roads](/en/from-cuban-roads), the reason
@@ -39,7 +40,7 @@ Just like everywhere, state-run shops sell food products. They are rationed and 
 
 Apart from these convenience stores, some mobile salespeople take the roads on their bikes. If they often sell fruits, vegetables and flowers, they are sometimes innovative too. While we are watching the sun setting from _Punta Gorda_, one of them take a bottle, three-quarter full, out of his tray. He gives a cup to both of his new customers, seated one in front of the other. He finally pour a big amount of oysters, probably dead for several hours. On our side, we prefer carrying on with sipping our mojito.
 
-![Sunset on the Malecón.](../../../images/cuba/cienfuegos-malecon.jpg "Sunset")
+![Sunset on the Malecón.](../../../images/cuba/cienfuegos-sunset.jpg "Sunset")
 
 ![Silhouettes on the Malecón, during the sunset.](../../../images/cuba/cienfuegos-sunset-2.jpg "Silhouettes on the Malecón")
 

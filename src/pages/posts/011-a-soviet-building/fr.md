@@ -5,6 +5,7 @@ categories:
   destination: "georgia"
   category: "photo_series"
 template: "post"
+imageName: "borjomi-soviet-building"
 ---
 
 Ces clichés ont été pris dans la vallée de Borjomi (Géorgie), en mai 2019. Leur histoire est contée dans l'article intitulé "[En Géorgie abandonnée](/fr/en-géorgie-abandonnée)".

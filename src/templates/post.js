@@ -9,7 +9,7 @@ import { formatTranslations } from "../utils/format";
 import PrevNextArticle from "../components/PrevNextArticle/PrevNextArticle";
 
 export default ({
-    data: { post, prev, next, postTranslationsMarkdownRemark },
+    data: { mainImage, post, prev, next, postTranslationsMarkdownRemark },
     pageContext: { locale },
     location,
 }) => {
@@ -27,6 +27,7 @@ export default ({
                 langKey={post.fields.langKey}
                 pageTranslations={postTranslations}
                 location={location}
+                imagePathname={mainImage?.publicURL}
             />
             <article className={styles.article}>
                 <header className={styles.header}>
@@ -51,7 +52,16 @@ export default ({
 };
 
 export const query = graphql`
-    query($slug: String!, $namespace: String!, $locale: String!, $date: Date!) {
+    query(
+        $slug: String!
+        $namespace: String!
+        $locale: String!
+        $date: Date!
+        $imageName: String
+    ) {
+        mainImage: file(name: { eq: $imageName }) {
+            publicURL
+        }
         post: markdownRemark(fields: { slug: { eq: $slug } }) {
             html
             excerpt
