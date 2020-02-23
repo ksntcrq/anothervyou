@@ -10,10 +10,10 @@ import { formatTranslations } from "../utils/format";
 export default ({
     data: {
         postsMarkdownRemark,
-        site: { siteMetadata },
         pageTranslationsMarkdownRemark,
     },
     pageContext: { locale },
+    location,
 }) => {
     const intl = useIntl();
 
@@ -24,12 +24,11 @@ export default ({
     return (
         <Layout locale={locale} pageTranslations={pageTranslations}>
             <SEO
-                title={siteMetadata.title}
-                author={siteMetadata.author}
                 description={intl.formatMessage({ id: "index_description" })}
                 locale={locale}
                 langKey={locale}
                 pageTranslations={pageTranslations}
+                location={location}
             />
             <ul className={styles.unstyledList}>
                 {postsMarkdownRemark.edges.map(({ node }) => (
@@ -50,12 +49,6 @@ export default ({
 
 export const query = graphql`
     query($locale: String!, $namespace: String!) {
-        site {
-            siteMetadata {
-                title
-                author
-            }
-        }
         postsMarkdownRemark: allMarkdownRemark(
             sort: { fields: [frontmatter___date], order: DESC }
             filter: {

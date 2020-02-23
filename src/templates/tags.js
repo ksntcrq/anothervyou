@@ -6,10 +6,8 @@ import SEO from "../components/SEO/SEO";
 
 export default ({
     pageContext: { locale, tag },
-    data: {
-        postsMarkdownRemark,
-        site: { siteMetadata },
-    },
+    data: { postsMarkdownRemark },
+    location,
 }) => {
     const intl = useIntl();
     const translatedTag = intl.formatMessage({
@@ -27,9 +25,9 @@ export default ({
                     }
                 )}
                 tags={[translatedTag]}
-                author={siteMetadata.author}
                 locale={locale}
                 langKey={locale}
+                location={location}
             />
             <h1>{translatedTag}</h1>
             <ul>
@@ -47,11 +45,6 @@ export default ({
 
 export const query = graphql`
     query($tag: String!, $locale: String!) {
-        site {
-            siteMetadata {
-                author
-            }
-        }
         postsMarkdownRemark: allMarkdownRemark(
             sort: { fields: [frontmatter___date], order: DESC }
             filter: {

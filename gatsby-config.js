@@ -8,6 +8,7 @@ module.exports = {
     siteMetadata: {
         title: `anothervyou`,
         author: `Killian Saint cricq`,
+        url: `https://anothervyou.world`,
     },
     plugins: [
         {

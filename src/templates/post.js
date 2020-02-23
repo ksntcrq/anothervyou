@@ -9,14 +9,9 @@ import { formatTranslations } from "../utils/format";
 import PrevNextArticle from "../components/PrevNextArticle/PrevNextArticle";
 
 export default ({
-    data: {
-        post,
-        prev,
-        next,
-        postTranslationsMarkdownRemark,
-        site: { siteMetadata },
-    },
+    data: { post, prev, next, postTranslationsMarkdownRemark },
     pageContext: { locale },
+    location,
 }) => {
     const postTranslations = formatTranslations(
         postTranslationsMarkdownRemark.edges
@@ -27,11 +22,11 @@ export default ({
             <SEO
                 title={post.frontmatter.title}
                 description={post.excerpt}
-                author={siteMetadata.author}
                 tags={post.tags}
                 locale={locale}
                 langKey={post.fields.langKey}
                 pageTranslations={postTranslations}
+                location={location}
             />
             <article className={styles.article}>
                 <header className={styles.header}>
@@ -57,11 +52,6 @@ export default ({
 
 export const query = graphql`
     query($slug: String!, $namespace: String!, $locale: String!, $date: Date!) {
-        site {
-            siteMetadata {
-                author
-            }
-        }
         post: markdownRemark(fields: { slug: { eq: $slug } }) {
             html
             excerpt

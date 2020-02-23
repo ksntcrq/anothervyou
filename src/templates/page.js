@@ -5,12 +5,9 @@ import SEO from "../components/SEO/SEO";
 import { formatTranslations } from "../utils/format";
 
 export default ({
-    data: {
-        page,
-        site: { siteMetadata },
-        pageTranslationsMarkdownRemark,
-    },
+    data: { page, pageTranslationsMarkdownRemark },
     pageContext: { locale },
+    location,
 }) => {
     const pageTranslations = formatTranslations(
         pageTranslationsMarkdownRemark.edges
@@ -20,11 +17,11 @@ export default ({
         <Layout locale={locale} pageTranslations={pageTranslations}>
             <SEO
                 title={page.frontmatter.title}
-                author={siteMetadata.author}
                 description={page.excerpt}
                 locale={locale}
                 langKey={page.fields.langKey}
                 pageTranslations={pageTranslations}
+                location={location}
             />
             <h1>{page.frontmatter.title}</h1>
             <div dangerouslySetInnerHTML={{ __html: page.html }} />
@@ -34,11 +31,6 @@ export default ({
 
 export const query = graphql`
     query($slug: String!, $locale: String!, $namespace: String!) {
-        site {
-            siteMetadata {
-                author
-            }
-        }
         page: markdownRemark(fields: { slug: { eq: $slug } }) {
             html
             excerpt

@@ -1,21 +1,24 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import { withPrefix } from "../../../.cache/gatsby-browser-entry";
+import useSiteMetadata from "../../hooks/useSiteMetadata";
 
 export default ({
-    title,
+    title = null,
     description,
-    author,
     locale,
     langKey,
+    location,
     pageTranslations = [],
     tags = [],
+    imageUrl = null,
 }) => {
+    const { title: siteTitle, author, url: siteUrl } = useSiteMetadata();
     return (
         <Helmet>
             <html lang={langKey} />
             <title>
-                {title} - {author}
+                {title || siteTitle} - {author}
             </title>
             <meta name="description" content={description} />
             <meta name="author" content={author} />
@@ -26,11 +29,16 @@ export default ({
                     locale === langKey ? "index,follow" : "noindex,nofollow"
                 }
             />
+            <meta property="og:title" content={title + " " + author} />
+            <meta property="og:description" content={description} />
+            {imageUrl && <meta property="og:image" content={imageUrl} />}
+            <meta property="og:url" content={siteUrl + location.pathname} />
+            <meta name="twitter:card" content="summary_large_image" />
             {pageTranslations.map(({ slug, langKey }) => (
                 <link
                     key={langKey}
                     rel="alternate"
-                    href={withPrefix(slug)}
+                    href={siteUrl + withPrefix(slug)}
                     hreflang={langKey}
                 />
             ))}
