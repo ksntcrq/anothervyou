@@ -32,5 +32,17 @@ VIIème siècle. Les deux bâtisses sont nichées au sommet d'une montagne et
 dominent respectivement Stephantsminda, proche de la frontière russe, et
 Mtskheta.
 
+Les hauts sommets qui tapissent l'arrière-plan de ces églises regorgent de
+paysages sublimes. Visiter ces bâtisses vieilles de plusieurs siècles ou se
+perdre le long des crêtes formées par le travail des plaques tectoniques est
+toujours gratuit. À vingt kilomètres au sud de Stephantsminda, Juta est le point
+de départ de magnifiques parcours de randonnée ponctués de lacs. Conduire un
+véhicule tout terrain prend ici tout son sens : lorsque nous rejoindrons à
+nouveau la Route militaire géorgienne, principale artère reliant la Russie à
+la capitale, le chemin cahoteux sera barré d'une digue de graviers. Après
+avoir essayé de passer par-dessus et bloqué la voiture en son milieu, nous
+déciderons de faire marche arrière. Et de prendre une piste dérobée qui manquera 
+de peu de nous retourner sur le bas-côté...
+
 * Monastere au bout de la route cahoteuse
 * Eglise dans les grottes troglodytes
