@@ -6,7 +6,7 @@ categories:
     destination: "georgia"
     category: "travelogues"
 template: "post"
-draft: true
+imageName: "vardzia"
 ---
 
 À quarante de minutes de Gori, ville natale de Staline, la
@@ -22,6 +22,8 @@ Ils érigent la croix face à la frontière, psalmodent encore dix minutes et
 disparaissent d'où ils étaient apparus. Nous sommes alors invités à quitter 
 les lieux, que nous ne partageons plus qu'avec les gardes armés.
 
+![Des fidèles, après avoir érigé une grande croix métallique face à la frontière avec l'Ossétie du Sud.](../../../images/georgia/south-ossetian-border-faithful-2.jpg "Des fidèles orthodoxes")
+
 ## Une foi millénaire
 
 Cet épisode est caractéristique de l'engagement religieux en Géorgie. Autour de 
@@ -34,6 +36,8 @@ VIIème siècle. Les deux bâtisses sont perchées au sommet de montagnes et
 dominent respectivement Stephantsminda, proche de la frontière russe, et
 Mtskheta.
 
+![Monastère de Jvari, à Mtskheta.](../../../images/georgia/mtskheta-monastery.jpg "Monastère de Jvari")
+
 Visiter ces édifices vieux de plusieurs siècles est toujours gratuit, au même
 titre que se perdre le long des crêtes formées par le long travail des plaques 
 tectoniques. À vingt kilomètres au sud de Stephantsminda, Juta est par
@@ -44,6 +48,8 @@ la capitale, le chemin cahoteux sera barré d'une digue de graviers. Après
 avoir essayé de passer par-dessus et bloqué la voiture en son barycentre, nous
 déciderons de faire - non sans mal - marche arrière. Et de prendre une piste 
 dérobée qui manquera de peu de nous retourner dans le caniveau...
+
+![Point de départ de randonnées, à Juta.](../../../images/georgia/juta.jpg "Juta")
 
 ## Au bout du monde
 
@@ -58,6 +64,8 @@ presque-demi-tours, nous arrivons au bout. Mauvaise nouvelle : il faudra
 revenir sur nos pas pour retrouver l'asphalte ferme... Mais bonne nouvelle : un 
 monastère en renovation affiche servir le déjeuner.
 
+![Deux nonnes, s'occupant de rénover un monastère de la vallée de Tuso.](../../../images/georgia/tuso-monastery.jpg "Monastère")
+
 La présence d'un monastère à cet endroit est une surprise en soi. Il aura fallu 
 passer plusieurs villages abandonnés en ruine et beaucoup de résilience pour
 l'atteindre. Une nonne installe alors une table à l'extérieur, avant de revenir
@@ -66,6 +74,8 @@ ramène avec elle une salade de tomates, du _soulgouni_ - un fromage géorgien -
 et du pain. Une fois le repas terminé, elle refusera d'en donner le prix, 
 aimablement gênée par la question et précisant que les services monastiques 
 sont toujours gratuits.
+
+![Un des villages semi-abandonnés de la vallée de Tuso.](../../../images/georgia/tuso-village.jpg "Un village semi-abandonné")
 
 L'important n'était finalement pas la forteresse en elle-même, mais le voyage
 y menant. La colline sur laquelle ses ruines se juchent est par ailleurs gardée
@@ -76,6 +86,8 @@ loin. Sur le retour, un prêtre arrêtera notre voiture et nous demandera
 d'emmener avec nous deux hommes. Ils travaillent dans le second monastère 
 des environs et effectuent normalement les dix fastidieux kilomètres à pied.
 Fortuite était notre présence...
+
+![Forteresse de Zakagori avec, en contre-bas, un poste militaire.](../../../images/georgia/tuso-fortress.jpg "Forteresse de Zakagori")
 
 ## Des cités troglodytiques
 
@@ -88,7 +100,11 @@ de trois mille grottes, et sa localisation est d'autant plus époustouflante.
 Les pièces sont excavées sur le flanc d'une haute falaise et s'enfoncent plus loin
 sous terre. L'ensemble monastique y a ici été construit au XIIème siècle, mais
 taillé dans la pierre plutôt que sorti de terre. L'église, haute de plus
-de neuf mètres, a su conserver ses peintures murales jusqu'à aujourd'hui (1).
+de neuf mètres, a su conserver ses peintures murales jusqu'à aujourd'hui.
+
+![Extérieur de l'église de Dormition, au cœur du complexe de Varzia.](../../../images/georgia/vardzia.jpg "Église de Dormition")
+
+![Cité troglodytique et monastique de Vardzia.](../../../images/georgia/vardzia-2.jpg "Vardzia")
 
 D'autres monastères du genre, comme celui de David Gareji, à la frontière avec
 l'Azerbaïjan, sont disséminés à travers le pays. Et d'autres forteresses anciennes, 
@@ -96,3 +112,5 @@ comme celle d'Akhaltsikhé, près de la Turquie, ont encore la chance d'observer
 le temps qui passe. La Géorgie a un passé aussi riche que sa cuisine :
 khatchapouri, lobio, khinkali et lobiani sont autant d'exemples de plats
 typiques de cette région du monde. Une région surprenante et encore peu visitée.
+
+![Vue sur l'église de la Trinité de Gergeti, au coucher du soleil.](../../../images/georgia/stepansminda-monastery.jpg "Église de la Trinité de Gergeti")
