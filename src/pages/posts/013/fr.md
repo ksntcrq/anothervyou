@@ -17,7 +17,7 @@ de personnes font irruption d'un chemin aval dérobé. Parés de leur toge,
 des prêtres précèdent des fidèles qui portent sur leurs épaules une grande croix.
 Ils chantent, nous dépassent et s'arrêtent entre le quatre-quatre de location
 et les bâches vertes, cachant le _no man's land_ qui sépare les deux territoires. 
-Ils érigent la croix face à la frontière, psalmodent encore dix minutes et 
+Ils érigent la croix face à la frontière, psalmodient encore dix minutes et 
 disparaissent d'où ils étaient apparus. Nous sommes alors invités à quitter 
 les lieux, que nous ne partageons plus qu'avec les gardes armés.
 
