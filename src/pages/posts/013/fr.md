@@ -1,7 +1,6 @@
 ---
 title: "Orthodoxe Géorgie"
 date: "2020-03-15"
-tags: ["georgia", "roadtrip"]
 categories:
     destination: "georgia"
     category: "travelogues"
@@ -64,7 +63,7 @@ presque-demi-tours, nous arrivons au bout. Mauvaise nouvelle : il faudra
 revenir sur nos pas pour retrouver l'asphalte ferme... Mais bonne nouvelle : un 
 monastère en renovation affiche servir le déjeuner.
 
-![Deux nonnes, s'occupant de rénover un monastère de la vallée de Tuso.](../../../images/georgia/tuso-monastery.jpg "Monastère")
+![Deux nonnes, s'occupant de rénover un monastère de la vallée de Tuso.](../../../images/georgia/tuso-monastery.jpg "Un monastère")
 
 La présence d'un monastère à cet endroit est une surprise en soi. Il aura fallu 
 passer plusieurs villages abandonnés en ruine et beaucoup de résilience pour
