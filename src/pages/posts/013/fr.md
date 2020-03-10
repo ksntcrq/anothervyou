@@ -1,6 +1,6 @@
 ---
 title: "Orthodoxe Géorgie"
-date: "2020-03-15"
+date: "2020-03-10"
 categories:
     destination: "georgia"
     category: "travelogues"

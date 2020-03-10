@@ -29,7 +29,10 @@ export default ({
                     locale === langKey ? "index,follow" : "noindex,nofollow"
                 }
             />
-            <meta property="og:title" content={title + " " + author} />
+            <meta
+                property="og:title"
+                content={(title || siteTitle) + " - " + author}
+            />
             <meta property="og:description" content={description} />
             {imagePathname && (
                 <meta property="og:image" content={siteUrl + imagePathname} />
