@@ -110,6 +110,7 @@ l'Azerbaïjan, sont disséminés à travers le pays. Et d'autres forteresses anc
 comme celle d'Akhaltsikhé, près de la Turquie, ont encore la chance d'observer
 le temps qui passe. La Géorgie a un passé aussi riche que sa cuisine :
 khatchapouri, lobio, khinkali et lobiani sont autant d'exemples de plats
-typiques de cette région du monde. Une région surprenante et encore peu visitée.
+typiques de cette région du monde.
+[Une région surprenante](/fr/en-géorgie-abandonnée) et encore peu visitée.
 
 ![Vue sur l'église de la Trinité de Gergeti, au coucher du soleil.](../../../images/georgia/stepansminda-monastery.jpg "Église de la Trinité de Gergeti")

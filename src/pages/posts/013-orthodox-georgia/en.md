@@ -100,6 +100,6 @@ Azerbaijan, are scattered throughout the country. And other ancient fortresses,
 such as that of Akhaltsikhe, near Turkey, still have a chance to observe the 
 passage of time. Georgia's past is as rich as its cuisine: khatchapouri, lobio, 
 khinkali and lobiani are all examples of typical dishes from this part of the 
-world. A surprising region, still little visited.
+world. [A surprising region](/en/abandoned-georgia), still little visited.
 
 ![Trinity of Gergeti church, right after the sunset.](../../../images/georgia/stepansminda-monastery.jpg "Trinity of Gergeti church")
