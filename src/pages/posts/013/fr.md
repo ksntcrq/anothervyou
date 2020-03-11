@@ -78,7 +78,7 @@ sont toujours gratuits.
 
 L'important n'était finalement pas la forteresse en elle-même, mais le voyage
 y menant. La colline sur laquelle ses ruines se juchent est par ailleurs gardée
-par des militiares, exhortant les visiteurs à se dépêcher. Il s'agit 
+par des militaires, exhortant les visiteurs à se dépêcher. Il s'agit 
 certainement du dernier poste avant que les frontières de l'Ossétie du Sud, de
 la Russie et de la Géorgie ne se rejoignent : interdiction, donc, d'aller plus
 loin. Sur le retour, un prêtre arrêtera notre voiture et nous demandera
