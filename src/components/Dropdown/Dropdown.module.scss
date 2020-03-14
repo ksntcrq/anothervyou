@@ -1,0 +1,35 @@
+@import "../../styles/modules/all";
+
+.dropdown {
+    position: relative;
+}
+
+.toggle {
+    @extend %btn-link;
+
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    outline: 0;
+
+    &::after {
+        content: "\203A";
+        display: block;
+        transform: rotate(90deg);
+        font-size: 25px;
+        margin-left: 10px;
+    }
+}
+
+.items {
+    position: absolute;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: white;
+
+    &.hidden {
+        display: none;
+    }
+}

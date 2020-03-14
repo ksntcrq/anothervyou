@@ -11,6 +11,7 @@ function Footer({ className }) {
                 <a
                     className={styles.bmcButton}
                     target="_blank"
+                    rel="noreferrer noopener"
                     href="https://www.buymeacoffee.com/ksntcrq"
                 >
                     <img

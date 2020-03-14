@@ -1,0 +1,15 @@
+@import "variables";
+
+%btn-link {
+    font-size: $font-size-base;
+    background: none;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    color: $text-color;
+
+    &:hover {
+        color: $primary-color;
+        cursor: pointer;
+    }
+}
