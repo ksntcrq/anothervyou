@@ -3,7 +3,7 @@ title: "La Havane : rythmées rencontres"
 date: "2018-04-21"
 categories:
   destination: "cuba"
-  category: "travelogues"
+  type: "travelogues"
 template: "post"
 imageName: "havana-camel"
 ---

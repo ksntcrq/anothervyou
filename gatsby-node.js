@@ -1,6 +1,8 @@
 const path = require(`path`);
 const dashify = require(`dashify`);
 
+const capitalize = (s) => s.charAt(0).toUpperCase() + s.slice(1);
+
 exports.onCreateNode = ({ node, getNode, actions }) => {
     const { createNodeField } = actions;
     if (node.internal.type === `MarkdownRemark`) {
@@ -48,7 +50,6 @@ exports.createPages = async ({ actions, graphql }) => {
                             slug
                         }
                         frontmatter {
-                            tags
                             template
                             date
                             imageName
@@ -56,8 +57,20 @@ exports.createPages = async ({ actions, graphql }) => {
                     }
                 }
             }
-            tagsGroup: allMarkdownRemark {
-                group(field: frontmatter___tags) {
+            typesGroup: allMarkdownRemark {
+                group(field: frontmatter___categories___type) {
+                    fieldValue
+                    edges {
+                        node {
+                            fields {
+                                langKey
+                            }
+                        }
+                    }
+                }
+            }
+            destinationsGroup: allMarkdownRemark {
+                group(field: frontmatter___categories___destination) {
                     fieldValue
                     edges {
                         node {
@@ -71,10 +84,11 @@ exports.createPages = async ({ actions, graphql }) => {
         }
     `);
     result.data.pagesRemark.edges.forEach(({ node }) => {
+        const template = capitalize(node.frontmatter.template);
         createPage({
             path: `${node.fields.slug}`,
             component: path.resolve(
-                `./src/templates/${node.frontmatter.template}.js`
+                `./src/templates/${template}/${template}.js`
             ),
             context: {
                 slug: node.fields.slug,
@@ -85,19 +99,29 @@ exports.createPages = async ({ actions, graphql }) => {
             },
         });
     });
-    result.data.tagsGroup.group.forEach(tag => {
-        tag.edges.forEach(({ node }) => {
+    result.data.typesGroup.group.forEach(
+      createCategoryPages(createPage, `type`)
+    );
+    result.data.destinationsGroup.group.forEach(
+        createCategoryPages(createPage, `destination`)
+    );
+};
+
+function createCategoryPages(createPage, categoryKey) {
+    const template = capitalize(categoryKey);
+    return category => {
+        category.edges.forEach(({ node }) => {
             const langKey = node.fields.langKey;
             const messages = require(`./src/intl/${langKey}.json`);
-            const translatedTag = messages[tag.fieldValue];
+            const translatedTag = messages[category.fieldValue];
             createPage({
-                path: `/${langKey}/tags/${dashify(translatedTag)}`,
-                component: path.resolve("./src/templates/tags.js"),
+                path: `/${langKey}/category/${dashify(translatedTag)}`,
+                component: path.resolve(`./src/templates/Category/${template}.js`),
                 context: {
-                    tag: tag.fieldValue,
+                    category: category.fieldValue,
                     locale: langKey,
                 },
             });
         });
-    });
-};
+    };
+}

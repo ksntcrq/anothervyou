@@ -1,10 +1,9 @@
 ---
 title: "Abandoned Georgia"
 date: "2019-12-08"
-tags: ["georgia", "roadtrip"]
 categories:
   destination: "georgia"
-  category: "travelogues"
+  type: "travelogues"
 template: "post"
 imageName: "borjomi-building-balcony"
 ---

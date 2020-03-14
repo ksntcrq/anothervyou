@@ -3,7 +3,7 @@ title: "La journée de la femme dans la baie des Cochons"
 date: "2018-06-09"
 categories:
   destination: "cuba"
-  category: "travelogues"
+  type: "travelogues"
 template: "post"
 imageName: "playa-giron"
 ---

@@ -3,7 +3,7 @@ title: "La face cachée de la Corée du Nord"
 date: "2018-12-09"
 categories:
   destination: "north_korea"
-  category: "reports"
+  type: "reports"
 template: "post"
 imageName: "chongjin-playground"
 ---

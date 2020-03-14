@@ -1,17 +1,14 @@
 import React from "react";
 import { graphql } from "gatsby";
-import Layout from "../components/Layout/Layout";
-import ArticlePreview from "../components/ArticlePreview/ArticlePreview";
-import styles from "./templates.module.scss";
+import Layout from "../../components/Layout/Layout";
+import ArticlePreview from "../../components/ArticlePreview/ArticlePreview";
+import styles from "../templates.module.scss";
 import { useIntl } from "react-intl";
-import SEO from "../components/SEO/SEO";
-import { formatTranslations } from "../utils/format";
+import SEO from "../../components/SEO/SEO";
+import { formatTranslations } from "../../utils/format";
 
 export default ({
-    data: {
-        postsMarkdownRemark,
-        pageTranslationsMarkdownRemark,
-    },
+    data: { postsMarkdownRemark, pageTranslationsMarkdownRemark },
     pageContext: { locale },
     location,
 }) => {
@@ -39,6 +36,7 @@ export default ({
                             date={node.frontmatter.date}
                             slug={node.fields.slug}
                             excerpt={node.excerpt}
+                            locale={locale}
                         />
                     </li>
                 ))}
@@ -69,7 +67,7 @@ export const query = graphql`
                         date
                         categories {
                             destination
-                            category
+                            type
                         }
                     }
                 }

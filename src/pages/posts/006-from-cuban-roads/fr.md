@@ -3,7 +3,7 @@ title: "Des routes cubaines"
 date: "2018-07-09"
 categories:
   destination: "cuba"
-  category: "reports"
+  type: "reports"
 template: "post"
 imageName: "trinidad-car-repair"
 ---

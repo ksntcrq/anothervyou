@@ -3,7 +3,7 @@ title: "¡Revolución!"
 date: "2018-03-30"
 categories:
   destination: "cuba"
-  category: "travelogues"
+  type: "travelogues"
 template: "post"
 ---
 

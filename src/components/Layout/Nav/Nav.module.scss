@@ -4,6 +4,7 @@
     position: sticky;
     top: 0;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: flex-end;
     z-index: 10;
@@ -19,8 +20,14 @@
 }
 
 .brand {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
+    @media only screen and (min-width: 768px) {
+        font-size: 25px;
+    }
+    @media only screen and (min-width: 992px) {
+        font-size: 30px;
+    }
 }
 
 .menu {

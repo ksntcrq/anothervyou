@@ -1,8 +1,8 @@
 import React from "react";
-import Layout from "../components/Layout/Layout";
+import Layout from "../../components/Layout/Layout";
 import { graphql } from "gatsby";
-import SEO from "../components/SEO/SEO";
-import { formatTranslations } from "../utils/format";
+import SEO from "../../components/SEO/SEO";
+import { formatTranslations } from "../../utils/format";
 
 export default ({
     data: { page, pageTranslationsMarkdownRemark },

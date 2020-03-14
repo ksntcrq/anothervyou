@@ -3,7 +3,7 @@ title: "Women's day in the Bay of Pigs"
 date: "2018-06-10"
 categories:
   destination: "cuba"
-  category: "travelogues"
+  type: "travelogues"
 template: "post"
 imageName: "playa-giron"
 ---

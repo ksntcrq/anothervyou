@@ -3,7 +3,7 @@ title: "Cuba et Internet"
 date: "2018-04-05"
 categories:
   destination: "cuba"
-  category: "reports"
+  type: "reports"
 template: "post"
 imageName: "cienfuegos-phone-street"
 ---

@@ -2,8 +2,8 @@
 title: "Orthodoxe Géorgie"
 date: "2020-03-10"
 categories:
-    destination: "georgia"
-    category: "travelogues"
+  destination: "georgia"
+  type: "travelogues"
 template: "post"
 imageName: "vardzia"
 ---

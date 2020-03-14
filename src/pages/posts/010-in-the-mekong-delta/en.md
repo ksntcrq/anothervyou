@@ -3,7 +3,7 @@ title: "In the Mekong Delta"
 date: "2019-09-11"
 categories:
   destination: "vietnam"
-  category: "travelogues"
+  type: "travelogues"
 template: "post"
 imageName: "ho-chi-minh-temple"
 ---

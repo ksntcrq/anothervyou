@@ -3,8 +3,16 @@ import PropTypes from "prop-types";
 import styles from "./ArticlePreview.module.scss";
 import { FormattedDate, FormattedMessage, useIntl } from "react-intl";
 import { Link } from "gatsby";
+import dashify from "dashify";
 
-function ArticlePreview({ title, categories = {}, slug, excerpt, date }) {
+function ArticlePreview({
+    title,
+    categories = {},
+    slug,
+    excerpt,
+    date,
+    locale,
+}) {
     const intl = useIntl();
     return (
         <article className={styles.article}>
@@ -21,13 +29,20 @@ function ArticlePreview({ title, categories = {}, slug, excerpt, date }) {
                             day="numeric"
                         />
                     </time>
+                    {categories && " • "}
                     {categories &&
-                        " • " +
-                            Object.values(categories)
-                                .map(category =>
-                                    intl.formatMessage({ id: category })
-                                )
-                                .join(", ")}
+                        Object.values(categories)
+                            .map(category => (
+                                <Link
+                                    key={category}
+                                    to={`/${locale}/category/${dashify(
+                                        intl.formatMessage({ id: category })
+                                    )}`}
+                                >
+                                    {intl.formatMessage({ id: category })}
+                                </Link>
+                            ))
+                            .reduce((prev, curr) => [prev, `, `, curr])}
                 </div>
             </header>
             <p className={styles.text}>

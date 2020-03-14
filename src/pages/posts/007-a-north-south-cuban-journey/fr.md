@@ -3,7 +3,7 @@ title: "Du Nord au Sud de Cuba"
 date: "2018-07-31"
 categories:
   destination: "cuba"
-  category: "travelogues"
+  type: "travelogues"
 template: "post"
 imageName: "trinidad-school"
 ---

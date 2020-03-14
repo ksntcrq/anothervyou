@@ -3,7 +3,7 @@ title: "A North-South Cuban journey"
 date: "2018-08-07"
 categories:
   destination: "cuba"
-  category: "travelogues"
+  type: "travelogues"
 template: "post"
 imageName: "trinidad-school"
 ---

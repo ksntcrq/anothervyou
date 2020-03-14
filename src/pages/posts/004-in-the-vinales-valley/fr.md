@@ -3,7 +3,7 @@ title: "Dans la vallée de Viñales"
 date: "2018-05-13"
 categories:
   destination: "cuba"
-  category: "travelogues"
+  type: "travelogues"
 template: "post"
 imageName: "vinales-field"
 ---

@@ -3,7 +3,7 @@ title: "Pyongyang or a North Korean showcase"
 date: "2018-10-07"
 categories:
   destination: "north_korea"
-  category: "reports"
+  type: "reports"
 template: "post"
 imageName: "pyongyang-soldiers-2"
 ---
