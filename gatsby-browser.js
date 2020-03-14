@@ -12,6 +12,7 @@ export const wrapPageElement = ({
     return (
         <IntlProvider locale={locale} messages={messages}>
             {element}
+            <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" />
         </IntlProvider>
     );
 };
