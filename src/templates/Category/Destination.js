@@ -1,6 +1,7 @@
 import { graphql } from "gatsby";
 
-export { default } from "./Category";
+import Category from "./Category";
+export default Category;
 
 export const query = graphql`
     query($category: String!, $locale: String!) {
