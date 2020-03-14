@@ -1,11 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
-import styles from "./ArticlePreview.module.scss";
+import styles from "./PostPreview.module.scss";
 import { FormattedDate, FormattedMessage, useIntl } from "react-intl";
 import { Link } from "gatsby";
 import dashify from "dashify";
 
-function ArticlePreview({
+function PostPreview({
     title,
     categories = {},
     slug,
@@ -15,7 +15,7 @@ function ArticlePreview({
 }) {
     const intl = useIntl();
     return (
-        <article className={styles.article}>
+        <article className={styles.post}>
             <header>
                 <h2 className={styles.title}>
                     <Link to={slug}>{title}</Link>
@@ -57,7 +57,7 @@ function ArticlePreview({
     );
 }
 
-ArticlePreview.propTypes = {
+PostPreview.propTypes = {
     title: PropTypes.string.isRequired,
     slug: PropTypes.string.isRequired,
     excerpt: PropTypes.string.isRequired,
@@ -65,4 +65,4 @@ ArticlePreview.propTypes = {
     categories: PropTypes.object,
 };
 
-export default ArticlePreview;
+export default PostPreview;

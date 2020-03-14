@@ -4,7 +4,7 @@ export { default } from "./Category";
 
 export const query = graphql`
     query($category: String!, $locale: String!) {
-        postsMarkdownRemark: allMarkdownRemark(
+        posts: allMarkdownRemark(
             sort: { fields: [frontmatter___date], order: DESC }
             filter: {
                 frontmatter: {

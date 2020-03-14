@@ -6,18 +6,16 @@ import templateStyles from "../templates.module.scss";
 import styles from "./Post.module.scss";
 import SEO from "../../components/SEO/SEO";
 import { formatTranslations } from "../../utils/format";
-import PrevNextArticle from "../../components/PrevNextArticle/PrevNextArticle";
+import PrevNextPost from "../../components/PrevNextPost/PrevNextPost";
 import useEnhancedIntl from "../../hooks/useEnhancedIntl";
 
 export default ({
-    data: { mainImage, post, prev, next, postTranslationsMarkdownRemark },
+    data: { mainImage, post, prev, next, translations },
     pageContext: { locale },
     location,
 }) => {
     const intl = useEnhancedIntl();
-    const postTranslations = formatTranslations(
-        postTranslationsMarkdownRemark.edges
-    );
+    const postTranslations = formatTranslations(translations.edges);
 
     return (
         <Layout locale={locale} pageTranslations={postTranslations}>
@@ -33,7 +31,7 @@ export default ({
                 location={location}
                 imagePathname={mainImage?.publicURL}
             />
-            <article className={styles.article}>
+            <article className={styles.post}>
                 <header className={templateStyles.header}>
                     <h1 className={templateStyles.title}>
                         {post.frontmatter.title}
@@ -49,7 +47,7 @@ export default ({
                 </header>
                 <div dangerouslySetInnerHTML={{ __html: post.html }} />
             </article>
-            <PrevNextArticle prev={prev.nodes[0]} next={next.nodes[0]} />
+            <PrevNextPost prev={prev.nodes[0]} next={next.nodes[0]} />
         </Layout>
     );
 };
@@ -114,7 +112,7 @@ export const query = graphql`
                 }
             }
         }
-        postTranslationsMarkdownRemark: allMarkdownRemark(
+        translations: allMarkdownRemark(
             filter: {
                 frontmatter: { draft: { ne: true } }
                 fields: {

@@ -5,13 +5,11 @@ import SEO from "../../components/SEO/SEO";
 import { formatTranslations } from "../../utils/format";
 
 export default ({
-    data: { page, pageTranslationsMarkdownRemark },
+    data: { page, translations },
     pageContext: { locale },
     location,
 }) => {
-    const pageTranslations = formatTranslations(
-        pageTranslationsMarkdownRemark.edges
-    );
+    const pageTranslations = formatTranslations(translations.edges);
 
     return (
         <Layout locale={locale} pageTranslations={pageTranslations}>
@@ -41,7 +39,7 @@ export const query = graphql`
                 title
             }
         }
-        pageTranslationsMarkdownRemark: allMarkdownRemark(
+        translations: allMarkdownRemark(
             filter: {
                 fields: {
                     namespace: { eq: $namespace }

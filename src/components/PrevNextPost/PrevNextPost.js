@@ -1,10 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
-import styles from "./PrevNextArticle.module.scss";
+import styles from "./PrevNextPost.module.scss";
 import { Link } from "gatsby";
 import { FormattedMessage } from "react-intl";
 
-function PrevNextArticle({ prev, next }) {
+function PrevNextPost({ prev, next }) {
     return (
         <div className={styles.wrapper}>
             <div className={styles.prevWrapper}>
@@ -35,7 +35,7 @@ function PrevNextArticle({ prev, next }) {
     );
 }
 
-PrevNextArticle.propTypes = {
+PrevNextPost.propTypes = {
     prev: PropTypes.shape({
         frontmatter: PropTypes.shape({
             title: PropTypes.string.isRequired,
@@ -54,4 +54,4 @@ PrevNextArticle.propTypes = {
     }),
 };
 
-export default PrevNextArticle;
+export default PrevNextPost;

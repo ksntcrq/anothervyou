@@ -3,11 +3,11 @@ import Layout from "../../components/Layout/Layout";
 import { useIntl } from "react-intl";
 import SEO from "../../components/SEO/SEO";
 import styles from "../templates.module.scss";
-import ArticlePreview from "../../components/ArticlePreview/ArticlePreview";
+import PostPreview from "../../components/PostPreview/PostPreview";
 
 export default ({
     pageContext: { locale, category },
-    data: { postsMarkdownRemark },
+    data: { posts },
     location,
 }) => {
     const intl = useIntl();
@@ -21,8 +21,8 @@ export default ({
                 description={intl.formatMessage(
                     { id: `category_description` },
                     {
-                        number: postsMarkdownRemark.totalCount,
-                        tag: translatedCategory,
+                        number: posts.totalCount,
+                        category: translatedCategory,
                     }
                 )}
                 tags={[category]}
@@ -32,9 +32,9 @@ export default ({
             />
             <h1>{translatedCategory}</h1>
             <ul className={styles.unstyledList}>
-                {postsMarkdownRemark.edges.map(({ node }) => (
+                {posts.edges.map(({ node }) => (
                     <li key={node.id}>
-                        <ArticlePreview
+                        <PostPreview
                             title={node.frontmatter.title}
                             categories={node.frontmatter.categories}
                             date={node.frontmatter.date}

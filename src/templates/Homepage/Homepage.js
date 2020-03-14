@@ -1,22 +1,20 @@
 import React from "react";
 import { graphql } from "gatsby";
 import Layout from "../../components/Layout/Layout";
-import ArticlePreview from "../../components/ArticlePreview/ArticlePreview";
+import PostPreview from "../../components/PostPreview/PostPreview";
 import styles from "../templates.module.scss";
 import { useIntl } from "react-intl";
 import SEO from "../../components/SEO/SEO";
 import { formatTranslations } from "../../utils/format";
 
 export default ({
-    data: { postsMarkdownRemark, pageTranslationsMarkdownRemark },
+    data: { posts, translations },
     pageContext: { locale },
     location,
 }) => {
     const intl = useIntl();
 
-    const pageTranslations = formatTranslations(
-        pageTranslationsMarkdownRemark.edges
-    );
+    const pageTranslations = formatTranslations(translations.edges);
 
     return (
         <Layout locale={locale} pageTranslations={pageTranslations}>
@@ -28,9 +26,9 @@ export default ({
                 location={location}
             />
             <ul className={styles.unstyledList}>
-                {postsMarkdownRemark.edges.map(({ node }) => (
+                {posts.edges.map(({ node }) => (
                     <li key={node.id}>
-                        <ArticlePreview
+                        <PostPreview
                             title={node.frontmatter.title}
                             categories={node.frontmatter.categories}
                             date={node.frontmatter.date}
@@ -47,7 +45,7 @@ export default ({
 
 export const query = graphql`
     query($locale: String!, $namespace: String!) {
-        postsMarkdownRemark: allMarkdownRemark(
+        posts: allMarkdownRemark(
             sort: { fields: [frontmatter___date], order: DESC }
             filter: {
                 fields: { langKey: { eq: $locale } }
@@ -73,7 +71,7 @@ export const query = graphql`
                 }
             }
         }
-        pageTranslationsMarkdownRemark: allMarkdownRemark(
+        translations: allMarkdownRemark(
             filter: {
                 fields: {
                     namespace: { eq: $namespace }

@@ -1,7 +1,7 @@
 const path = require(`path`);
 const dashify = require(`dashify`);
 
-const capitalize = (s) => s.charAt(0).toUpperCase() + s.slice(1);
+const capitalize = s => s.charAt(0).toUpperCase() + s.slice(1);
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
     const { createNodeField } = actions;
@@ -100,7 +100,7 @@ exports.createPages = async ({ actions, graphql }) => {
         });
     });
     result.data.typesGroup.group.forEach(
-      createCategoryPages(createPage, `type`)
+        createCategoryPages(createPage, `type`)
     );
     result.data.destinationsGroup.group.forEach(
         createCategoryPages(createPage, `destination`)
@@ -116,7 +116,9 @@ function createCategoryPages(createPage, categoryKey) {
             const translatedTag = messages[category.fieldValue];
             createPage({
                 path: `/${langKey}/category/${dashify(translatedTag)}`,
-                component: path.resolve(`./src/templates/Category/${template}.js`),
+                component: path.resolve(
+                    `./src/templates/Category/${template}.js`
+                ),
                 context: {
                     category: category.fieldValue,
                     locale: langKey,
