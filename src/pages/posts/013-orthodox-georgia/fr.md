@@ -40,7 +40,7 @@ Mtskheta.
 Visiter ces édifices vieux de plusieurs siècles est toujours gratuit, au même
 titre que se perdre le long des crêtes formées par le long travail des plaques 
 tectoniques. À vingt kilomètres au sud de Stephantsminda, Juta est par
-exemple le point de départ de magnifiques randonnées ponctués de lacs. Conduire un
+exemple le point de départ de magnifiques randonnées ponctuées de lacs. Conduire un
 véhicule tout terrain prend ici tout son sens : lorsque nous rejoindrons à
 nouveau la Route militaire géorgienne, principale artère reliant la Russie à
 la capitale, le chemin cahoteux sera barré d'une digue de graviers. Après
@@ -61,7 +61,7 @@ plus entraînés et la concentration de ses passagers. Une heure de trajet
 chaotique plus tard, semé de doutes quant à la possibilité de continuer et de
 presque-demi-tours, nous arrivons au bout. Mauvaise nouvelle : il faudra
 revenir sur nos pas pour retrouver l'asphalte ferme... Mais bonne nouvelle : un 
-monastère en renovation affiche servir le déjeuner.
+monastère en rénovation affiche servir le déjeuner.
 
 ![Deux nonnes, s'occupant de rénover un monastère de la vallée de Tuso.](../../../images/georgia/tuso-monastery.jpg "Un monastère")
 
