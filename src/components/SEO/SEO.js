@@ -13,7 +13,7 @@ export default ({
     tags = [],
     imagePathname = null,
 }) => {
-    const { title: siteTitle, author, url: siteUrl } = useSiteMetadata();
+    const { title: siteTitle, author, siteUrl } = useSiteMetadata();
     return (
         <Helmet>
             <html lang={langKey} />
