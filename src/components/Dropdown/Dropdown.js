@@ -7,12 +7,8 @@ import styles from "./Dropdown.module.scss";
 function Dropdown({ title, items, className }) {
     const [showItems, setShowItems] = useState(false);
 
-    const handleShowItems = useCallback(() => setShowItems(true), [
-        setShowItems,
-    ]);
-    const handleHideItems = useCallback(() => setShowItems(false), [
-        setShowItems,
-    ]);
+    const handleShowItems = useCallback(() => setShowItems(true), []);
+    const handleHideItems = useCallback(() => setShowItems(false), []);
 
     return (
         <div

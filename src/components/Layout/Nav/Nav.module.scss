@@ -17,11 +17,13 @@
 
 .brand-wrapper {
     flex-grow: 1;
+    margin-right: $spacing;
 }
 
 .brand {
     font-size: 20px;
     font-weight: bold;
+
     @media only screen and (min-width: 768px) {
         font-size: 25px;
     }
@@ -31,8 +33,8 @@
 }
 
 .menu-item {
-    &:not(:last-child) {
-        margin-right: 2 * $spacing;
+    &:not(:first-child) {
+        margin-left: 2 * $spacing;
     }
 }
 

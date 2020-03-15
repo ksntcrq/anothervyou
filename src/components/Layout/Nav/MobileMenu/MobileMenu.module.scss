@@ -1,0 +1,50 @@
+@import "../../../../styles/modules/all";
+
+.mobile-menu {
+    @media only screen and (min-width: 768px) {
+        display: none;
+    }
+}
+
+.button {
+    @extend %btn-link;
+}
+
+.menu-items {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: white;
+    padding: $spacing * 2;
+    margin: 4px 0 0;
+    list-style: none;
+    text-align: right;
+    box-shadow: -10px 0 10px 0 rgba(0, 0, 0, 0.1);
+    transition: transform 200ms ease-out;
+    transform: translateX(0);
+
+    &.hidden {
+        transform: translateX(100%);
+    }
+
+    @media only screen and (min-width: 768px) {
+        display: none;
+    }
+}
+
+.title {
+    font-weight: bold;
+}
+
+.sub-menu-items {
+    padding: 0;
+    margin: 0 0 $spacing 0;
+    list-style: none;
+}
+
+.bmc-wrapper {
+    margin-top: auto;
+}

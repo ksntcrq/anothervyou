@@ -6,6 +6,7 @@ import classNames from "classnames";
 import { FormattedMessage, useIntl } from "react-intl";
 import Dropdown from "../../Dropdown/Dropdown";
 import dashify from "dashify";
+import MobileMenu from "./MobileMenu/MobileMenu";
 
 function Nav({ className, locale, pageTranslations = [] }) {
     const { site, destinations, types } = useStaticQuery(
@@ -33,7 +34,22 @@ function Nav({ className, locale, pageTranslations = [] }) {
             }
         `
     );
+
     const intl = useIntl();
+
+    function formatCategoryItems(categoriesMarkdownRemark) {
+        return categoriesMarkdownRemark.group.map(
+            ({ fieldValue: destination }) => ({
+                title: intl.formatMessage({ id: destination }),
+                slug: `/${locale}/category/${dashify(
+                    intl.formatMessage({ id: destination })
+                )}`,
+            })
+        );
+    }
+
+    const formattedDestinations = formatCategoryItems(destinations);
+    const formattedTypes = formatCategoryItems(types);
 
     return (
         <nav className={classNames(className, styles.nav)}>
@@ -44,24 +60,12 @@ function Nav({ className, locale, pageTranslations = [] }) {
             </div>
             <Dropdown
                 className={classNames(styles.menuItem, styles.category)}
-                items={destinations.group.map(
-                    ({ fieldValue: destination }) => ({
-                        title: intl.formatMessage({ id: destination }),
-                        slug: `/${locale}/category/${dashify(
-                            intl.formatMessage({ id: destination })
-                        )}`,
-                    })
-                )}
+                items={formattedDestinations}
                 title={intl.formatMessage({ id: `destinations` })}
             />
             <Dropdown
                 className={classNames(styles.menuItem, styles.category)}
-                items={types.group.map(({ fieldValue: type }) => ({
-                    title: intl.formatMessage({ id: type }),
-                    slug: `/${locale}/category/${dashify(
-                        intl.formatMessage({ id: type })
-                    )}`,
-                }))}
+                items={formattedTypes}
                 title={intl.formatMessage({ id: `categories` })}
             />
             {pageTranslations.length > 0 && (
@@ -79,6 +83,11 @@ function Nav({ className, locale, pageTranslations = [] }) {
                     </ul>
                 </div>
             )}
+            <MobileMenu
+                className={styles.menuItem}
+                formattedTypes={formattedTypes}
+                formattedDestinations={formattedDestinations}
+            />
         </nav>
     );
 }

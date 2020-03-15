@@ -1,0 +1,22 @@
+@import '../../../styles/modules/all';
+
+.bmc-button {
+    display: inline-flex;
+    align-items: center;
+    flex-shrink: 0;
+    padding: 5px 10px;
+    border: 1px dashed $text-color;
+
+    img {
+        margin-right: 5px;
+    }
+
+    .text {
+        font-family: Cookie, cursive;
+        font-size: 25px;
+    }
+
+    &:hover {
+        border-color: $primary-color;
+    }
+}
