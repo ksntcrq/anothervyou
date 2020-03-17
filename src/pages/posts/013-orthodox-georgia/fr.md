@@ -8,7 +8,7 @@ template: "post"
 imageName: "vardzia"
 ---
 
-À quarante de minutes de Gori, ville natale de Staline, la
+À quarante minutes de Gori, ville natale de Staline, la
 frontière avec l'Ossétie du Sud est gardée de grillages et de barbelés. La
 région a fait sécession de la Géorgie en 1992 et reste encore aujourd'hui
 le théâtre de tensions. À peine la voiture garée sur le bas-côté, à quelques 
