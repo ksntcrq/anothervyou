@@ -92,7 +92,7 @@ Here are some more pictures shot in Pyongyang (hover them to have more details, 
 
 ![Stalls in front of one of the stadiums of Pyongyang, close to the Arch of Triumph, unveiled in 1982 and ten meters taller than in Paris.](../../../images/north-korea/pyongyang-stalls.jpg "Stalls in front of a stadium")
 
-![Colorful soviet buildings, near the Victorious War Museum.](../../../images/north-korea/pyongyang-arch-of-reunification.jpg "Soviet buildings")
+![Colorful soviet buildings, near the Victorious War Museum.](../../../images/north-korea/pyongyang-buildings.jpg "Soviet buildings")
 
 ![A street scene, in Pyongyang.](../../../images/north-korea/pyongyang-street-2.jpg "A street scene")
 

@@ -92,7 +92,7 @@ En bonus, voici quelques photographies supplémentaires prises à Pyongyang (pas
 
 ![Des échoppes, devant l'un des stades de Pyongyang, près de l'Arc de Triomphe inauguré en 1982 et dix mètres plus haut que celui de Paris.](../../../images/north-korea/pyongyang-stalls.jpg "Des échoppes devant un stade")
 
-![Des bâtiments colorés aux allures soviétiques, près du Musée de la guerre victorieuse.](../../../images/north-korea/pyongyang-arch-of-reunification.jpg "Des bâtiments soviétiques")
+![Des bâtiments colorés aux allures soviétiques, près du Musée de la guerre victorieuse.](../../../images/north-korea/pyongyang-buildings.jpg "Des bâtiments soviétiques")
 
 ![Une scène de vie, à Pyongyang.](../../../images/north-korea/pyongyang-street-2.jpg "Une scène de vie")
 
