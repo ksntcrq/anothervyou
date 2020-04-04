@@ -42,7 +42,8 @@ function Nav({ className, locale, pageTranslations = [] }) {
             ({ fieldValue: destination }) => ({
                 title: intl.formatMessage({ id: destination }),
                 slug: `/${locale}/category/${dashify(
-                    intl.formatMessage({ id: destination })
+                    intl.formatMessage({ id: destination }),
+                    { condense: true }
                 )}`,
             })
         );

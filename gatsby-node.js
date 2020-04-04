@@ -9,7 +9,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
         const { name: langKey, relativeDirectory: namespace } = getNode(
             node.parent
         );
-        const slug = dashify(node.frontmatter.title) || "";
+        const slug = dashify(node.frontmatter.title, { condense: true }) || "";
         createNodeField({
             node,
             name: `langKey`,
@@ -115,7 +115,7 @@ function createCategoryPages(createPage, categoryKey) {
             const messages = require(`./src/intl/${langKey}.json`);
             const translatedTag = messages[category.fieldValue];
             createPage({
-                path: `/${langKey}/category/${dashify(translatedTag)}`,
+                path: `/${langKey}/category/${dashify(translatedTag, { condense: true })}`,
                 component: path.resolve(
                     `./src/templates/Category/${template}.js`
                 ),

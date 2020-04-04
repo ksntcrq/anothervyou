@@ -36,7 +36,8 @@ function PostPreview({
                                 <Link
                                     key={category}
                                     to={`/${locale}/category/${dashify(
-                                        intl.formatMessage({ id: category })
+                                        intl.formatMessage({ id: category }),
+                                        { condense: true }
                                     )}`}
                                 >
                                     {intl.formatMessage({ id: category })}
