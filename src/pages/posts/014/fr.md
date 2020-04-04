@@ -1,5 +1,5 @@
 ---
-title: "La Transnitrie, \"le pays qui n'existe pas\""
+title: "La Transnitrie, ce pays qui n'existe pas"
 date: "2020-04-04"
 categories:
   destination: "transnitria"
