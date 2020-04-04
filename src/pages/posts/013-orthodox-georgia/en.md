@@ -5,6 +5,7 @@ categories:
   destination: "georgia"
   type: "travelogues"
 template: "post"
+imageName: "vardzia"
 ---
 
 Forty minutes from Gori, Stalin's hometown, the border with South Ossetia is 

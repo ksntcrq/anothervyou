@@ -5,6 +5,7 @@ categories:
   destination: "transnitria"
   type: "reports"
 template: "post"
+imageName: "bender-fun-fair"
 ---
 
 En Transnitrie, territoire sécessioniste de la Moldavie, l'horloge s'est arrêtée 
