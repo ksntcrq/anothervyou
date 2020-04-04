@@ -27,10 +27,10 @@ module.exports = {
                         options: {
                             maxWidth: 710,
                             withWebp: {
-                                quality: 100,
+                                quality: 80,
                             },
                             showCaptions: ["alt", "title"],
-                            quality: 100,
+                            quality: 80,
                         },
                     },
                 ],
