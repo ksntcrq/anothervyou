@@ -6,6 +6,7 @@
     padding-left: $spacing;
     padding-right: $spacing;
     margin: (2 * $spacing) auto;
+    overflow-wrap: break-word;
 }
 
 .content {
@@ -13,4 +14,5 @@
     padding-left: $spacing;
     padding-right: $spacing;
     margin: (4 * $spacing) auto (8 * $spacing);
+    overflow-wrap: break-word;
 }

@@ -69,7 +69,7 @@ disappointment, of "country that does not exist".
 
 ![A map of the bus network, in the bus station of Bender, crossing the borders between Moldova, Transnistria and Ukraine, whose main cities represented here are respectively Chisinau, Tiraspol and Odessa.](../../../images/transnitria/bender-bus-map.jpg "A map of the bus network")
 
-Yet beyond their distinctive central bank and currency, the Trasnitrians have 
+Yet, beyond their distinctive central bank and currency, the Trasnitrians have 
 their own president, government and institutions. However, their passports do 
 not allow them to travel. Depending on where their parents were born in Soviet 
 times, they may travel to Chisinau to claim a Moldovan, Russian or Ukrainian 
