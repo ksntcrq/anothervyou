@@ -103,16 +103,17 @@ Le Dniestr, que des bâteaux dansants empruntent jusqu'au coucher du soleil, est
 bordé d'une plage escarpée en plein centre ville. Le pont étroit la rejoignant 
 est le seul, à des kilomètres à la ronde, permettant de rallier les deux rives. 
 À quelques centaines de mètres, l'unique autre moyen de traverser le fleuve est 
-un vieux ferry soviétique en sorte de plate-forme, retenu par une corde l'aidant 
-à garder le cap sur la soixantaine de mètres séparant les deux berges. 
-Agréablement étonnés de la présence d'étrangers, les Tiraspoliens en profitent 
-pour s'intéresser aux raisons d'une visite si loin des circuits touristiques 
-traditionnels. Une partie de la réponse est dans la question...
+un vieux ferry soviétique. Il s'agit une sorte de plate-forme sur laquelle 
+quelques voitures peuvent monter, retenue par une corde l'aidant à garder le cap 
+sur la soixantaine de mètres séparant les deux berges. Agréablement étonnés de 
+la présence d'étrangers, les Tiraspoliens en profitent pour s'intéresser aux 
+raisons d'une visite si loin des circuits touristiques traditionnels. Une 
+partie de la réponse est dans la question...
 
 ## Difficultés économiques
 
 À la nuit tombée, le long de la large avenue du 25 octobre, les fontaines
-s'illuminent et la musique retentit. Chisinau gargouillait de nouveaux 
+s'illuminent et la musique retentit. Chisinau grouillait de nouveaux 
 mariés et Tiraspol n'est pas en reste : le lieu public accueille ce soir une 
 fête maritale. En dehors de ces festivités, la ville est un désert obscur
 que presque rien ne vient peupler. L'occasion de visiter l'une des usines
