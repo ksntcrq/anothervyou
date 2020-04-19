@@ -10,7 +10,7 @@ imageName: "chongjin-playground"
 
 When the aircraft takes off from the North Korean capital, tourists have this guilty excitement appearing in slightly dangerous situations. The plane, which flew for the first time in the sixties, certainly does not comply with the international security rules. Maybe oxygen masks and life vests stayed in Russia, the country it is from, with the Siberian air the ventilation usually blows. On another hand, safety instructions are almost inaudible: the aircraft's deafening noise covers the few crackling decibels escaping from the ancient speakers. We are on board in one of the two domestic flights planned from Pyongyang today. One is going to Uiju and the other, to Orang, brings us to the North-East of the country in no more than one hour.
 
-![A Russian airplane, the Ilouchine 18, connecting Pyongyang and Orang, on the tarmac of the destination airport.](../../../images/north-korea/orang-airport.jpg "Orang airport")
+![A Russian airplane, the Ilyushin Il-18, connecting Pyongyang and Orang, on the tarmac of the destination airport.](../../../images/north-korea/orang-airport.jpg "Orang airport")
 
 ## Picture restrictions
 
