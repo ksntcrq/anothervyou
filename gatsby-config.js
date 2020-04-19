@@ -7,6 +7,7 @@
 module.exports = {
     siteMetadata: {
         title: `anothervyou`,
+        logo: `a⋮`,
         author: `Killian Saint cricq`,
         siteUrl: `https://anothervyou.world`,
     },

@@ -30,12 +30,34 @@
     @media only screen and (min-width: 992px) {
         font-size: 30px;
     }
+
+    .title {
+        display: none;
+        @media only screen and (min-width: 375px) {
+            display: block;
+        }
+    }
+
+    .logo {
+        display: block;
+        @media only screen and (min-width: 375px) {
+            display: none;
+        }
+    }
 }
 
 .menu-item {
     &:not(:first-child) {
-        margin-left: 2 * $spacing;
+        margin-left: $spacing;
+
+        @media only screen and (min-width: 768px) {
+            margin-left: 2 * $spacing;
+        }
     }
+}
+
+.wrapper-for-mobile {
+    display: flex;
 }
 
 .category {

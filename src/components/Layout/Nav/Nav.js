@@ -15,6 +15,7 @@ function Nav({ className, locale, pageTranslations = [] }) {
                 site {
                     siteMetadata {
                         title
+                        logo
                     }
                 }
                 destinations: allMarkdownRemark(
@@ -56,7 +57,12 @@ function Nav({ className, locale, pageTranslations = [] }) {
         <nav className={classNames(className, styles.nav)}>
             <div className={styles.brandWrapper}>
                 <Link className={styles.brand} to={`/${locale}`}>
-                    {site.siteMetadata.title}
+                    <span className={styles.title}>
+                        {site.siteMetadata.title}
+                    </span>
+                    <span className={styles.logo}>
+                        {site.siteMetadata.logo}
+                    </span>
                 </Link>
             </div>
             <Dropdown
@@ -69,26 +75,33 @@ function Nav({ className, locale, pageTranslations = [] }) {
                 items={formattedTypes}
                 title={intl.formatMessage({ id: `categories` })}
             />
-            {pageTranslations.length > 0 && (
-                <div className={styles.menuItem}>
-                    <ul className={styles.translations}>
-                        {pageTranslations.map(({ langKey, slug }) => (
-                            <li key={langKey}>
-                                <Link className={styles.translation} to={slug}>
-                                    <FormattedMessage
-                                        id={`read_in_${langKey}`}
-                                    />
-                                </Link>
-                            </li>
-                        ))}
-                    </ul>
-                </div>
-            )}
-            <MobileMenu
-                className={styles.menuItem}
-                formattedTypes={formattedTypes}
-                formattedDestinations={formattedDestinations}
-            />
+            <div
+                className={classNames(styles.menuItem, styles.wrapperForMobile)}
+            >
+                {pageTranslations.length > 0 && (
+                    <div className={styles.menuItem}>
+                        <ul className={styles.translations}>
+                            {pageTranslations.map(({ langKey, slug }) => (
+                                <li key={langKey}>
+                                    <Link
+                                        className={styles.translation}
+                                        to={slug}
+                                    >
+                                        <FormattedMessage
+                                            id={`read_in_${langKey}`}
+                                        />
+                                    </Link>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+                )}
+                <MobileMenu
+                    className={styles.menuItem}
+                    formattedTypes={formattedTypes}
+                    formattedDestinations={formattedDestinations}
+                />
+            </div>
         </nav>
     );
 }
