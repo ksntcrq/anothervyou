@@ -8,6 +8,7 @@ import SEO from "../../components/SEO/SEO";
 import { formatTranslations } from "../../utils/format";
 import PrevNextPost from "../../components/PrevNextPost/PrevNextPost";
 import useEnhancedIntl from "../../hooks/useEnhancedIntl";
+import Share from "../../components/Share/Share"
 
 export default ({
     data: { mainImage, post, prev, next, translations },
@@ -47,6 +48,7 @@ export default ({
                 </header>
                 <div dangerouslySetInnerHTML={{ __html: post.html }} />
             </article>
+            <Share url={location.href} title={post.frontmatter.title} />
             <PrevNextPost prev={prev.nodes[0]} next={next.nodes[0]} />
         </Layout>
     );
