@@ -1,8 +1,27 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.org/docs/gatsby-config/
- */
+function serialize({ query: { site, allMarkdownRemark } }) {
+    return allMarkdownRemark.edges.map(edge => {
+        return Object.assign(
+            {},
+            edge.node.frontmatter,
+            {
+                description: edge.node.excerpt,
+                date: edge.node.frontmatter.date,
+                url:
+                    site.siteMetadata.siteUrl +
+                    edge.node.fields.slug,
+                guid:
+                    site.siteMetadata.siteUrl +
+                    edge.node.fields.slug,
+                custom_elements: [
+                    {
+                        "content:encoded":
+                        edge.node.html,
+                    },
+                ],
+            },
+        )
+    })
+}
 
 module.exports = {
     siteMetadata: {
@@ -59,30 +78,7 @@ module.exports = {
                 `,
                 feeds: [
                     {
-                        serialize: ({ query: { site, allMarkdownRemark } }) => {
-                            return allMarkdownRemark.edges.map(edge => {
-                                return Object.assign(
-                                    {},
-                                    edge.node.frontmatter,
-                                    {
-                                        description: edge.node.excerpt,
-                                        date: edge.node.frontmatter.date,
-                                        url:
-                                            site.siteMetadata.siteUrl +
-                                            edge.node.fields.slug,
-                                        guid:
-                                            site.siteMetadata.siteUrl +
-                                            edge.node.fields.slug,
-                                        custom_elements: [
-                                            {
-                                                "content:encoded":
-                                                edge.node.html,
-                                            },
-                                        ],
-                                    },
-                                )
-                            })
-                        },
+                        serialize,
                         query: `
                             {
                                 allMarkdownRemark(
@@ -104,6 +100,62 @@ module.exports = {
                             }
                         `,
                         output: "/rss.xml",
+                        description: "a⋮ mixed feed, French and English, Français et Anglais.",
+                    },
+                    {
+                        serialize,
+                        query: `
+                            {
+                                allMarkdownRemark(
+                                    sort: {order: DESC, fields: [frontmatter___date]},
+                                    filter: {
+                                        frontmatter: {template: {eq: "post"}, draft: {ne: true}},
+                                        fields: { langKey: { eq: "fr" } }
+                                    }
+                                ){
+                                    edges {
+                                        node {
+                                            excerpt
+                                            html
+                                            fields { slug }
+                                            frontmatter {
+                                                title
+                                                date
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        `,
+                        output: "/fr/rss.xml",
+                        description: "a⋮ flux",
+                    },
+                    {
+                        serialize,
+                        query: `
+                            {
+                                allMarkdownRemark(
+                                    sort: {order: DESC, fields: [frontmatter___date]},
+                                    filter: {
+                                        frontmatter: {template: {eq: "post"}, draft: {ne: true}},
+                                        fields: { langKey: { eq: "en" } }
+                                    }
+                                ){
+                                    edges {
+                                        node {
+                                            excerpt
+                                            html
+                                            fields { slug }
+                                            frontmatter {
+                                                title
+                                                date
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        `,
+                        output: "/en/rss.xml",
                         description: "a⋮ feed",
                     },
                 ],

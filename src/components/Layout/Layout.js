@@ -14,7 +14,10 @@ function Layout({ children, locale, pageTranslations }) {
                 pageTranslations={pageTranslations}
             />
             <main className={styles.content}>{children}</main>
-            <Footer className={styles.footer} />
+            <Footer
+                locale={locale}
+                className={styles.footer}
+            />
         </>
     );
 }
